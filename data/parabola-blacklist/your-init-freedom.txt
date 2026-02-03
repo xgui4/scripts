@@ -1,0 +1,29 @@
+cockpit:::: made for systemd
+gnome-logs:::: made for systemd
+journalbeat:::: made for systemd
+kamailio-systemd-modules::::
+kodi-standalone-service::::
+#lib32-systemd::::
+mkinitcpio-systemd-tool:::: made for systemd
+netctl:::: made for systemd
+python-systemd:::: made for systemd
+qjournalctl:::: made for systemd
+qopenvpn:::: made for systemd
+systemd-boot:::: depends on systemd
+systemd-common:::: is part of systemd
+systemd:elogind:::
+systemdgenie:::: made for systemd
+systemd-libs:libelogind::: is part of systemd
+systemd-libsystemd:libelogind::: is part of systemd
+systemd-libudev:libudev::: is part of systemd
+systemd-nss-myhostname:::: is part of systemd
+systemd-nss-mymachines:::: is part of systemd
+systemd-nss-resolve:::: is part of systemd
+systemd-nss-systemd:::: is part of systemd
+systemd-qemu::::
+systemd-resolvconf:::: is part of systemd
+systemd-swap:::: made for systemd
+systemd-sysvcompat:init::: is part of systemd
+systemd-tools::::
+systemd-udev:udev::: depends on systemd
+systemd-ui:::: made for systemd

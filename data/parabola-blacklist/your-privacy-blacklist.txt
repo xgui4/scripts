@@ -1,0 +1,49 @@
+bti:bti::: supports Twitter service
+california:california::: supports Google Calendar
+caprine:::: Facebook chat client, no encryption whatsoever
+choqok:choqok::: support Twitter service
+darktable:darktable::: depends of flickcurl
+duplicity:duplicity::: optional depends of python2-boto
+empathy:empathy::: depends of geoclue2
+eog-plugins:eog-plugins::: depends of libgdata
+evolution-data-server:evolution-data-server::: depends of libgdata
+finch:finch::: pidgin console
+flickcurl:::: only useful with Flickr service
+geoclue:::: enables geospatial awareness in applications (physical location tracking software)
+gnome-clocks:::: depends of geoclue2
+gnome-documents:::: depends of libgdata
+gnome-maps:::: depends of geoclue2
+gnome-online-accounts:gnome-online-accounts::: provides support for Google, Facebook, Windows Live and Microsoft Exchange and Flickr (keep only ownCloud, imap and smtp)
+gnome-online-miners:::: only useful with libgdata (provides support for Facebook, Flickr, Google and SkyDrive)
+gnome-photos:::: depends of libgdata and gnome-online-miners
+gnome-settings-daemon:gnome-settings-daemon::: depends of geoclue2
+gnome-weather:gnome-weather::: depends of geoclue2
+grilo-plugins:grilo-plugins::: optional depends of libgdata
+gthumb:gthumb::: contains support for Facebook, Flickr, Picasa and Photobucket
+gvfs-google::::
+icedove:icedove::: provides support for unsafe and dangerous for privacy services
+jitsi:jitsi::: provides support for unsafe and dangerous for privacy services
+kdepim-addons:kdepim-addons::: depends of libkgapi
+kdepim-runtime:kdepim-runtime::: depends of libkgapi
+kio-gdrive::::
+kio:kio:parabola:1066: has non-privacy search engines by default
+kipi-plugins:kipi-plugins::: provides support for unsafe and dangerous for privacy services
+kmail::parabola:564: depends of pim-storage-service-manager and contains support to check URLs with Phishing Google System
+kopete:kopete::: provides support for unsafe and dangerous for privacy services
+libgadu:::: only useful with Gadu-Gadu service
+libgdata:::: provides support for unsafe and dangerous for privacy services
+libkgapi:::: useful just with Google services
+libpurple:libpurple::: provides support for unsafe and dangerous for privacy services
+midori:midori:::uses non-privacy search engines
+minitube::parabola:701: requires create a "Browser Key" at https://console.developers.google.com and put it in /etc/profile.d/minitube.sh as the GOOGLE_API_KEY environmental variable
+netsurf:netsurf:parabola:3297:has non-privacy search engines
+openshot:openshot::: provides Youtube uploader support (Note: It has support for registered users only)
+pidgin:pidgin::: provides support for unsafe and dangerous for privacy services
+pork:::: provides support for unsafe and dangerous for privacy services
+pptpclient:::: Client for Microsoft Point-to-Point Tunneling Protocol
+python2-boto:::: only useful with Amazon Web Services (AWS)
+python2-dropbox::::
+redshift:redshift::: depends of geoclue2
+s3cmd:::: only useful with Amazon S3
+shotwell:::: depends of libgdata and contains support for Facebook, Flickr, Picasa, Tumblr, Yandex and Youtube (Note: Youtube option has support for registered users only)
+sylpheed:sylpheed::: has an entry for gmail in its accounts wizard

@@ -1,0 +1,40 @@
+#bochs::::[hardware-emulator pc][x86_32/x86_64][firmware no-need][software free] support GNU/Linux
+#darling::::[compatibility-layer darwin][arch various][software free] build software with GCC
+#desmume::::[hardware-emulator nintendods][arch arm32][firmware optional/technically-free][software free] support GNU/Linux
+dgen-sdl::::[hardware-emulator megadrive][arch m68k_16][firmware no-need][software technically-free] build software with GCC and WLA_DX
+#dolphin-emu::::[hardware-emulator nintendo-various][arch ppc32][firmware optional/technically-free][software free] support GNU/Linux
+dolphin-emu-tool::::requires blacklisted 'dolphin-emu'
+#dosbox::::[os-emulator dos][arch x86_16/x86_32][software free] build software with GCC
+fceux::::[hardware-emulator famicom][arch mos6502_8][firmware need(famicom-disk)/technically-free][software technically-free] build software with DASM
+fs-uae::::[hardware-emulator amiga]
+fs-uae-launcher::::requires blacklisted 'fs-uae'
+hatari::::[hardware-emulator atari-various][arch mos6507_8][firmware no-need][software technically-free] build software with DASM and WLA_DX
+#icecat::::[hardware-emulator phone/tablet][arch various][firmware no-need][software free] support GNU/Linux (Gecko Engine OS)
+#iceweasel::::[hardware-emulator phone/tablet][arch various][firmware no-need][software free] support GNU/Linux (Gecko Engine OS)
+#libhybris::::[compatibility-layer replicant][arch various][software free] build software with GCC
+#lxdream::::[hardware-emulator dreamcast][arch sh4_32][firmware need/free][software free] support GNU/Linux; free firmware reios https://github.com/reicast/reicast-emulator
+mame::::[hardware-emulator multiple arcade machines]
+mame-tools::::requires blacklisted 'mame'
+mednafen::::[hardware-emulator various][arch various][firmware optional(need-various)/technically-free][software technically-free(free-for-some)] build software with GCC, DASM and WLA_DX; http://kuwanger.net/projects/
+mednaffe-gtk2::::GUI for blacklisted 'mednafen' emulator
+mednaffe::::GUI for blacklisted 'mednafen' emulator
+mgba-qt::::[hardware-emulator gba/gameboy][arch arm32/z80_8][firmware optional/technically-free][software technically-free(gba-is-free)] build software with GCC and WLA_DX; http://kuwanger.net/projects/
+mgba-sdl::::[hardware-emulator gba/gameboy][arch arm32/z80_8][firmware optional/technically-free][software technically-free(gba-is-free)] build software with GCC and WLA_DX; http://kuwanger.net/projects/
+mupen64plus::::[hardware-emulator n64][arch mips64][firmware no-need][software technically-free] build software with GCC
+ppsspp-assets::::requires blacklisted 'ppsspp'
+ppsspp::::[hardware-emulator psp][arch arm32][firmware no-need][software free] support GNU/Linux
+#q4wine::::[frontend] wine frontend
+#qemu::::[hardware-emulator various][arch various][firmware optional(need-various)/free][software free] support GNU/Linux (some not, build software with GCC)
+#qemu-launcher::::[frontend] qemu frontend
+#qtemu::::[frontend] qemu frontend
+#reicast::::[hardware-emulator dreamcast][arch sh4_32][firmware optional/free][software free] support GNU/Linux; free firmware reios https://github.com/reicast/reicast-emulator
+stella::::[hardware-emulator atari2600][arch mos6507_8][firmware no-need][software technically-free] build software with DASM and WLA_DX
+supermodel::::[hardware-emulator sega Model 3]
+vbam-sdl::::[hardware-emulator gba/gameboy][arch arm32/z80_8][firmware optional/technically-free][software technically-free(gba-is-free)] build software with GCC and WLA_DX; http://kuwanger.net/projects/
+vbam-wx::::[hardware-emulator gba/gameboy][arch arm32/z80_8][firmware optional/technically-free][software technically-free(gba-is-free)] build software with GCC and WLA_DX; http://kuwanger.net/projects/
+vice::::[hardware-emulator comodore][arch mos6502_8][firmware no-need][software technically-free] build software with DASM
+#wine::::[compatibility-layer reactos][arch various][software free] build software with GCC
+yabause-gtk::::[hardware-emulator saturn][arch sh2_32][firmware optional/technically-free][software technically-free] build software with GCC
+yabause-qt::::[hardware-emulator saturn][arch sh2_32][firmware optional/technically-free][software technically-free] build software with GCC
+yuzu::::[hardware-emulator switch]
+zsnes::::[hardware-emulator superfamicom][arch mos6502_16][firmware no-need][software technically-free] build software with WLA_DX

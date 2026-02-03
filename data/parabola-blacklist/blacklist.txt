@@ -1,0 +1,931 @@
+aarch64-linux-gnu-linux-api-headers:aarch64-linux-gnu-linux-libre-api-headers:parabola:36:[semifree] has source containing and recommending nonfree software, [[issue1571]]
+abiword:abiword:::[semifree] Hard-codes nonfree fonts, and has non-privacy search engines e.g. Google
+acetoneiso2::fsf:AcetoneISO:[uses-nonfree] ask to download and install nonfree poweriso
+acpi_call:acpi_call:::[technical] adapted to nonfree linux kernel
+acpi_call-dkms:acpi_call-dkms:::[technical] adapted to nonfree linux kernel
+acpi_call-lts:acpi_call-lts:::[technical] adapted to nonfree linux-lts kernel
+akonadi-calendar::parabola:2012:[uses-nonfree] depends on blacklisted 'messagelib'
+akonadi-calendar-tools::parabola:2012:[uses-nonfree] depends on blacklisted akonadi-calendar,calendarsupport
+akonadiconsole::parabola:2012:[uses-nonfree] depends on blacklisted calendarsupport,messagelib
+akonadi-import-wizard::parabola:2012:[uses-nonfree] depends on blacklisted 'messagelib'
+akregator::parabola:2012:[uses-nonfree] depends on blacklisted 'messagelib'
+alice-vision-cuda::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda'
+alice-vision::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda' <- 'magma-cuda' <- 'uncertainty-framework'
+alsa-firmware::::[nonfree] All its firmwares are either under a nonfree licenses or under a free license but without source code.
+amd-ucode::::[nonfree] no modification, use restrictions
+aml-libs-c1::::[nonfree] some copyrighted files
+angband:angband:::[semifree] [FIXME:description] Sounds are "freeware"
+angelfish::parabola:3596:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+archey3:paraboley:::[branding] [FIXME:package] TODO: package archey3 with https://github.com/lclarkmichalek/archey3/pull/40
+archinstall::parabola:3260:[uses-nonfree]: archlinux CLI installer
+archiso::parabola:3573:[uses-nonfree] recommends installing "Arch Linux"
+archlinux32-keyring:archlinux32-keyring:parabola:3347:[technical] Blacklisted to avoid import by db-import-pkg - also to avoid recurring signature validation problems
+archlinux-appstream-data::parabola:813:[uses-nonfree][FIXME:package] promotes nonfree packages and Arch repositories
+archlinuxarm-keyring:archlinuxarm-keyring:parabola:3347:[technical] Blacklisted to avoid import by db-import-pkg - also to remove it from the 'base-devel' package group
+archlinux-keyring:archlinux-keyring:parabola:3347:[technical] Blacklisted to avoid import by db-import-pkg - also to remove the automatic update service
+archlinux-themes-slim:parabola-themes-slim:::[branding][FIXME:description]
+archlinux-wallpaper::::[branding] [FIXME:package][FIXME:description]
+archlinux-xdg-menu:parabola-xdg-menu:::[branding][FIXME:description]
+arch-wiki-docs:parabola-wiki-docs:parabola:1024:[branding] [FIXME:package][FIXME:description]
+arch-wiki-lite:parabola-wiki-lite:parabola:1025:[branding] [FIXME:package][FIXME:description]
+arduino-ide::parabola:1231:[uses-nonfree] depends on blacklisted 'electron'
+arianna::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+ark:ark:::[uses-nonfree] recommends nonfree unrar
+arrayfire:arrayfire:parabola:840:[semifree] has nonfree cuda and nvidia-utils support and contains nonfree SIFT algorithm
+asar::parabola:2527:[uses-nonfree] built with blacklisted 'electron'
+asp::parabola:1755:[uses-nonfree] Downloads Arch Linux PKGBUILD repositories, so it's not FSDG compliant
+atool:atool:::[uses-nonfree] has nonfree unrar support for RAR and recommends nonfree unace optional installation
+audex:audex:::[uses-nonfree] recommends nonfree faac optional installation
+audio-convert:audio-convert:::[uses-nonfree] recommends nonfree faac optional installation
+avidemux-cli:avidemux-cli:::[uses-nonfree] depends and recommends nonfree faac installation
+avidemux-qt:avidemux-qt:::[uses-nonfree] depends and recommends nonfree faac installation
+awesome-terminal-fonts::parabola:2331:[nonfree] Contains mostly proprietary Logo type Glyphs the licenses of which remove freedom 0
+b43-fwcutter:b43-tools:fsf:b43-fwcutter_.2F_b43-tools:[uses-nonfree] Only useful to obtain nonfree firmware
+base:base:parabola:2506:[technical] a basic parabola installation should contain your-freedom
+bass::parabola:3451:[nonfree] prohibits selling
+bazel:::2598:[technical] sources contain built objects, build downloads binary dependencies
+bbswitch:bbswitch:::[technical] Recompile for linux-libre kernel instead of linux kernel
+bbswitch-dkms:bbswitch-dkms:::[technical] Recompile for linux-libre kernel instead of linux kernel
+beanshell:beanshell:::[technical] Arch version is not compiled from source
+betterdiscordctl::parabola:3272:[technical][uses-nonfree] downloader/installer for another program (better-discord - also libre), which reuqires/suggests ('uses-nonfree') discordapp desktop "app" (electron?)
+bibletime:bibletime:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+bitwarden::parabola:3220:[uses-nonfree] depends on blacklisted 'electron'
+blackbox:blackbox:::[uses-nonfree] recommends nonfree programs on menu
+bladerf:bladerf:::[semifree] free, but contains binary components which are linked with proprietary libraries, and are impossible to build using only libre tools
+blender:blender:::[uses-nonfree] supports nonfree cuda
+boinc::::[nonfree] nonfree files including and relating to api/texfont.{cpp,h} and possible other license issues (see: https://trisquel.info/en/forum/boinc-problem https://trisquel.info/en/issues/5658)
+boinc-nox::::[nonfree] nonfree files including and relating to api/texfont.{cpp,h} and possible other license issues
+breeze-plymouth:breeze-plymouth:::[branding] Displays the distro name from os-release, so it needs a Parabola rebuild
+broadcom-wl-dkms::parabola:1282:[nonfree] proprietary EULA, missing sources
+broadcom-wl::parabola:1282:[nonfree] proprietary EULA, missing sources (from Antergos)
+browserpass-chromium::parabola:1167:[uses-nonfree] depends on blacklisted 'chromium'
+browserpass-firefox::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+browserpass::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+bugzilla::::[uses-nonfree] depends perl-data-dumper/perl-authen-radius(perl-data-hexdump)/perl-soap-lite
+bumblebee::::[uses-nonfree] only useful for nonfree nvidia driver
+calendarsupport::parabola:2012:[uses-nonfree] depends on blacklisted 'akonadi-calendar'
+calibre:calibre3:parabola:2492:[semifree] contains nonfree unrar - frozen at v3.48; because current versions require blacklisted 'qt5-webengine'
+calibre-common::parabola:2492:[technical] part of 'calibre' >= v4 split package - no replacement necessary
+calibre-python3::parabola:2492:[technical] part of 'calibre' >= v4 split package - no replacement necessary
+cantor::parabola:2012:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+caprine::parabola:2528:[uses-nonfree] depends on blacklisted 'electron'
+cdrtools:cdrkit:::[semifree] Apple's license binding with no clarification (apple_driver utility is nonfree)
+cgroup_event_listener:linux-libre-tools-cgroup_event_listener:::[semifree][technical] re-build from 'linux-libre'
+chromium::parabola:1167:[uses-nonfree][FIXME:package] links to proprietary plugins - unattended phone-home" queries - not entirely built from sources - see https://lists.nongnu.org/archive/html/gnu-linux-libre/2018-03/msg00098.html
+clamav:clamav:::[semifree] has nonfree unrar support for RAR into libclamunrar
+clementine:clementine:parabola:99:[uses-nonfree] non-free-culture artwork(s) - asks to download a non-free plugin to support spotify
+clojure:clojure:::[technical] Arch version uses jar file to compile sources
+clonezilla::::[uses-nonfree] depends "drbl" that providing for a network installation of nonfree distributions
+code::parabola:2203:[uses-nonfree] (aka 'vscode') depends on blacklisted 'electron'
+conky:conky:parabola:2477:[uses-nonfree] depends on blacklisted 'libxnvctrl'
+cool-retro-term:cool-retro-term:parabola:730:[semifree] contains nonfree fonts
+cowsay:cowsay:parabola:3063:[semifree] has some dubious and objectionable cows
+cozy-desktop::parabola:2202:[uses-nonfree] depends on blacklisted 'electron'
+cpupower:linux-libre-tools-cpupower:::[semifree][technical] re-build from 'linux-libre'
+cuda::parabola:1375:[nonfree] proprietary EULA places limits on all four freedoms
+cuda-tools::parabola:1375:[nonfree] depends on blacklisted 'cuda' - same license as 'cuda'
+cudnn::parabola:1375:[nonfree][uses-nonfree] proprietary license, binary blobs without corresponding source - depends on blacklisted 'cuda'
+cuneiform:cuneiform:parabola:1054:[semifree] contains nonfree data files
+cura-binary-data::::[technical] Arch version was not built from source
+cutefish-wallpapers::parabola:3109:[nonfree] Uses nonfree Unsplash License
+dark-reader::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+debootstrap:debootstrap:::[uses-nonfree] bootstrap a basic Debian system
+deepin-anything-arch:deepin-anything-module:parabola:2134:[technical] needs rebuild for linux-libre kernel
+deepin-community-wallpapers::parabola:2986:[nonfree] no license (also 'deepin-wallpapers' - see #2986)
+deepin-wallpapers::parabola:2986:[nonfree] non-free license (CC-BY-NC)
+deltachat-desktop::parabola:1231:[uses-nonfree] depends on blacklisted 'electron'
+discord::parabola:2489::[nonfree] No source code available - redistribution-only license
+discover::parabola:1413:[uses-nonfree][FIXME:package] depends on nonfree archlinux-appstream-data
+ditaa:ditaa:::[technical] Arch version was not built from source
+dosemu::fsf:dosemu:[uses-nonfree] contains free software that can only be built using nonfree software
+doublecmd-gtk2:doublecmd-gtk2:::[uses-nonfree] recommends nonfree libunrar optional installation
+doublecmd-qt5:doublecmd-qt5:::[uses-nonfree] recommends nonfree libunrar optional installation
+drawio-desktop::parabola:1231:[uses-nonfree] depends on blacklisted 'electron'
+drbl::::[uses-nonfree] providing for a network installation of nonfree distributions
+drone::parabola:3563:[nonfree] non-free custom license
+drone-runner-docker::parabola:3563:[nonfree] non-free custom license
+drone-runner-exec::parabola:3563:[nonfree] non-free custom license
+drone-runner-ssh::parabola:3563:[nonfree] non-free custom license
+dwarffortress::::[nonfree] dwarffortress
+ecasound:ecasound:::[uses-nonfree] recommends nonfree faac optional installation
+electron27::parabola:1231:[semifree] transitional version of blacklisted 'electron'
+electron31::parabola:1231:[semifree] transitional version of blacklisted 'electron'
+electron34::parabola:1231:[semifree] transitional version of blacklisted 'electron'
+electron35::parabola:1231:[semifree] transitional version of blacklisted 'electron'
+electron36::parabola:1231:[semifree] transitional version of blacklisted 'electron'
+electron37::parabola:1231:[semifree] transitional version of blacklisted 'electron'
+electron38::parabola:1231:[semifree] transitional version of blacklisted 'electron'
+electron::parabola:1231:[semifree] derived from blacklisted 'chromium' - recommends non-free modules -  not entirely built from sources
+element-desktop::parabola:1380:[uses-nonfree] depends on blacklisted 'electron'
+emby-server::parabola:1334:[uses-nonfree] depends on nonfree referenceassemblies-pcl
+emby-theater::parabola:3163:[semifree] built with blacklisted 'electron'
+endless-sky-high-dpi::parabola:3210:[nonfree] non-free license (CC-BY-NC)
+endless-sky::parabola:3210:[nonfree] non-free license (CC-BY-NC)
+engrampa:engrampa:::[uses-nonfree] recommends nonfree unrar and unace installation
+epdfview:epdfview:::[uses-nonfree] has firefox in default config
+epiphany:epiphany:parabola:367:[uses-nonfree] has non-privacy search engines e.g. Google
+eventviews::parabola:2012:[uses-nonfree] depends on blacklisted 'calendarsupport'
+faac::::[nonfree] [FIXME:description] is a GPL'ed package, but has non free code that can't be distributed under the GPL
+faience-icon-theme:faience-icon-theme:parabola:3002:[semifree] has icons of nonfree distros and applications
+falkon::parabola:1783:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+fcitx5-chinese-addons:fcitx5-chinese-addons:parabola:3590:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+fcitx-libpinyin::parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+file-roller:file-roller:::[uses-nonfree] recommends nonfree unrar and unace installation
+filesystem:filesystem:::[branding][FIXME:description]
+firefox-adblock-plus::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-dark-reader::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-decentraleyes::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-developer-edition::fsf:firefox:[uses-nonfree] Has trademark issues, recommends nonfree software and by default has non-privacy search engines
+firefox-developer-edition-i18n-ach::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-af::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-an::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ar::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ast::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-az::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-be::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-bg::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-bn::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-br::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-bs::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ca::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-cak::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ca-valencia::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-cs::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-cy::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-da::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-de::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-dsb::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-el::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-en-ca::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-en-gb::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-en-us::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-eo::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-es-ar::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-es-cl::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-es-es::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-es-mx::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-et::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-eu::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-fa::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ff::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-fi::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-fr::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-fy-nl::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ga-ie::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-gd::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-gl::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-gn::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-gu-in::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-he::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-hi-in::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-hr::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-hsb::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-hu::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-hy-am::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ia::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-id::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-is::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-it::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ja::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-kab::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ka::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-kk::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-km::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-kn::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ko::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-lij::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-lt::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-lv::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-mk::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-mr::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ms::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-my::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-nb-no::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ne-np::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-nl::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-nn-no::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-oc::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-pa-in::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-pl::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-pt-br::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-pt-pt::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-rm::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ro::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ru::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-si::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-sk::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-sl::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-son::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-sq::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-sr::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-sv-se::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ta::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-te::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-th::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-tl::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-tr::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-trs::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-uk::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-ur::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-uz::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-vi::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-xh::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-zh-cn::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-developer-edition-i18n-zh-tw::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox-developer-edition'
+firefox-extension-mailvelope::fsf:firefox:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-extension-passff::parabola:2842:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ach::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-af::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-an::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ar::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ast::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-az::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-be::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-bg::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-bn::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-br::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-bs::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-cak::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ca::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ca-valencia::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-cs::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-cy::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-da::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-de::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-dsb::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-el::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-en-ca::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-en-gb::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-en-us::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-eo::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-es-ar::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-es-cl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-es-es::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-es-mx::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-et::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-eu::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-fa::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ff::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-fi::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-fr::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-fy-nl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ga-ie::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-gd::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-gl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-gn::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-gu-in::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-he::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-hi-in::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-hr::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-hsb::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-hu::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-hy-am::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ia::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-id::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-is::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-it::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ja::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-kab::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ka::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-kk::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-km::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-kn::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ko::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-lij::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-lt::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-lv::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-mk::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-mr::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ms::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-my::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-nb-no::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ne-np::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-nl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-nn-no::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-oc::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-pa-in::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-pl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-pt-br::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-pt-pt::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-rm::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ro::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ru::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-si::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-sk::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-sl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-son::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-sq::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-sr::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-sv-se::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ta::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-te::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-th::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-tl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-tr::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-trs::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-uk::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-ur::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-uz::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-vi::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-xh::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-zh-cn::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-i18n-zh-tw::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox:iceweasel:fsf:firefox:[uses-nonfree] supports DRM, recommends nonfree add-ons, non-privacy search engines
+firefox-noscript:iceweasel-noscript:parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-spell-ru::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-tree-style-tab::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-tridactyl::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+firefox-ublock-origin:iceweasel-ublock-origin:parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
+fishfight::parabola:3215:[nonfree] non-free license (CC-BY-NC) for the game data (which is in the fishfight package)
+foldingathome::parabola:2661:[nonfree] non-free license, no source code
+font-mathematica::::[FIXME:description]
+foomatic-db-nonfree::::[nonfree] clearly non free :P
+foomatic-db-nonfree-ppds::::[nonfree] clearly non free :P
+fop:fop:savannah:34579:[FIXME:description] (the linked bug is about batik, which includes fop)
+freecad:freecad:parabola:3338:[uses-nonfree] depends on blacklisted 'qt5-webengine' (#1167) and 'python-pip' (#1035)
+frescobaldi:denemo:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+frogatto-data::parabola:3245:[nonfree] nonfree data
+frogatto::parabola:3245:[uses-nonfree] requires blacklisted 'frogatto-data'
+fwupd-efi::parabola:3270:[uses-nonfree] only useful with blacklisted 'fwupd'
+fwupd::parabola:2909:[uses-nonfree] Uses the nonfree LVFS repository.
+geogebra::::[nonfree][technical][FIXME:package] Arch version is packaged from installers under noncommercial license, but free sources could be repackaged in principle -> https://lists.parabola.nu/pipermail/assist/2015-December/000586.html
+ghidra::parabola:3353:[technical] Arch version is not compiled from source
+ghostwriter::parabola:1155:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+gigedit::::[uses-nonfree] only useful with nonfree linuxsampler
+gitness::parabola:3563:[nonfree] alternate name for blacklisted 'drone' - may or may not be libre (see BR)
+gitness-runner-docker::parabola:3563:[nonfree] alternate name for blacklisted 'drone'
+gitness-runner-exec::parabola:3563:[nonfree] alternate name for blacklisted 'drone'
+gitness-runner-ssh::parabola:3563:[nonfree] alternate name for blacklisted 'drone'
+gloobus-preview:gloobus-preview:::[uses-nonfree] recommends nonfree unrar optional installation
+gmni:bombadillo:parabola:3360:[nonfree] code-base includes a GPL file, but is not properly licensed
+gnome-boxes:gnome-boxes:parabola:517:[uses-nonfree] contains artwork for non-FSDG compliant distros and operating systems
+gnome-firmware::parabola:2909:[uses-nonfree] depends on fwupd which has a nonfree LVFS repository
+gnome-software-packagekit-plugin::::[uses-nonfree][FIXME:package] depends on nonfree archlinux-appstream-data and gnome-software
+gnome-software::parabola:1413:[uses-nonfree][FIXME:package] depends on nonfree archlinux-appstream-data
+grantlee-editor::parabola:2012:[uses-nonfree] depends on blacklisted 'messagelib'
+grub:grub:::[branding][FIXME:description]
+gst-devtools-libs::parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad') [policy] requires networking to download undeclared sources at build-time
+gst-devtools::parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad') [policy] requires networking to download undeclared sources at build-time
+gst-editing-services:gst-editing-services:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-libav:gst-libav:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-gtk:gst-plugin-gtk:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-msdk:gst-plugin-msdk:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-onnx:gst-plugin-onnx:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-opencv:gst-plugin-opencv:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-qml6:gst-plugin-qml6:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-qmlgl:gst-plugin-qmlgl:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-qsv:gst-plugin-qsv:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugins-bad:gst-plugins-bad:::[uses-nonfree] depends on nonfree 'faac'
+gst-plugins-bad-libs:gst-plugins-bad-libs:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugins-base:gst-plugins-base:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugins-base-libs:gst-plugins-base-libs:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugins-good:gst-plugins-good:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugins-ugly:gst-plugins-ugly:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-va:gst-plugin-va:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-plugin-wpe:gst-plugin-wpe:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-python:gst-python:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gstreamer-docs:gstreamer-docs:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gstreamer:gstreamer:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gstreamer-vaapi:gstreamer-vaapi:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+gst-rtsp-server:gst-rtsp-server:parabola:3181:[technical] part of 'gstreamer' split-package (with blacklisted 'gst-plugins-bad')
+handbrake-cli:handbrake-cli:::[technical] Arch version uses network during building (also doesn't use system fdk-aac, x265, or libvpx)
+handbrake:handbrake:::[technical] Arch version uses network during building (also doesn't use system fdk-aac, x265, or libvpx)
+hedgewars::parabola:3236:[nonfree] CC-NC data
+hexchat:hexchat:::[uses-nonfree] Hard-codes the firefox command in some menus
+hplip:hplip:parabola:893:[uses-nonfree] recommends and downloads non-free binaries - auto-upgrades itself - phones home
+hydrogen:hydrogen:parabola:288:[uses-nonfree] recommends nonfree drumkits
+icedtea-web-doc:icedtea-web-doc:parabola:2164:[technical][uses-nonfree] make-depends on blacklisted 'firefox'
+icedtea-web:icedtea-web:parabola:2164:[technical][uses-nonfree] make-depends on blacklisted 'firefox'
+incidenceeditor::parabola:2012:[uses-nonfree] depends on blacklisted calendarsupport,eventviews
+intellij-idea-community-edition::parabola:1631:[nonfree][technical] downloads ephemeral sources at build-time
+intel-media-driver:intel-media-driver:parabola:3583:[semifree] contains non-free binaries/shaders
+intel-ucode::::[nonfree] no modification, use restrictions
+ipw2100-fw::fsf:ipw2100.2C_ipw2200.2C_ipw2915.2C_ipw3945:[nonfree] WiFi firmware for some WiFi adapters supported by the ipw2x00 Linux driver
+ipw2200-fw::fsf:ipw2100.2C_ipw2200.2C_ipw2915.2C_ipw3945:[nonfree] WiFi firmware for some WiFi adapters supported by the ipw2x00 Linux driver
+jad::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+jami-daemon:jami-daemon:parabola:3051:[technical] dependency of blacklist replacement 'jami-qt'
+jami-libclient:jami-libclient:parabola:3051:[technical] dependency of blacklist replacement 'jami-qt'
+jami-qt:jami-qt:parabola:3051:[uses-nonfree][antifeatures] (1) depends on blacklisted 'qt6-webengine'. (2) The "URL preview" feature send background querries without asking the user.
+java-avalon-framework:java-avalon-framework:::[technical] Arch version was not built from source
+java-batik:java-batik:savannah:34579:[technical] Arch version uses jar file to compile sources
+java-commons-io:java-commons-io:::[technical] Arch version was not built from source
+java-commons-logging:java-commons-logging:::[technical] Arch version was not built from source
+java-hamcrest:java-hamcrest:::[technical] Arch version was not built from source
+java-jline:java-jline:::[technical] Arch version uses jar file to compile sources
+java-rhino:java-rhino:::[technical] Arch version was not built from source
+java-runtime-common:java-runtime-common:::[branding][FIXME:description]
+java-xmlgraphics-commons:java-xmlgraphics-commons:::[technical] Arch version was not built from source
+jmol:jmol:::[technical] Arch version was not built from source
+jsampler::::[uses-nonfree] only useful with nonfree linuxsampler
+junit:junit:::[technical] Arch version was not built from source
+k3b::parabola:2012:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+kaccounts-providers::parabola:3597:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+kaddressbook::parabola:2012:[uses-nonfree] depends on blacklisted 'kdepim-runtime'
+kalgebra::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+kde-accessibility-meta:kde-accessibility-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
+kde-applications-meta:kde-applications-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
+kde-development-environment-meta:kde-development-environment-meta:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+kde-education-meta:kde-education-meta:parabola:3597:[uses-nonfree] depends on blacklisted cantor,kalgebra - [technical] split-package with several other k-*-meta packages
+kde-games-meta:kde-games-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
+kde-graphics-meta:kde-graphics-meta:parabola:3597:[uses-nonfree] depends on blacklisted arianna,kimagemapeditor - [technical] split-package with several other k-*-meta packages
+kde-multimedia-meta:kde-multimedia-meta:parabola:3597:[uses-nonfree] depends on blacklisted 'k3b' - [technical] split-package with several other k-*-meta packages
+kde-network-meta:kde-network-meta:parabola:3597:[uses-nonfree] depends on blacklisted angelfish,falkon,kio-gdrive,neochat,tokodon - [technical] split-package with several other k-*-meta packages
+kde-office-meta:kde-office-meta:parabola:3597:[uses-nonfree] depends on blacklisted 'ghostwriter' - [technical] split-package with several other k-*-meta packages
+kdepim-addons::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+kde-pim-meta:kde-pim-meta:parabola:3597:[uses-nonfree] depends on blacklisted akonadiconsole,akonadi-calendar-tools,akregator,grantlee-editor,kaddressbook,kdepim-addons,kleopatra,kmail,knotes,kontact,korganizer,merkuro,zanshin - [technical] split-package with several other k-*-meta
+kdepim-runtime::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+kde-sdk-meta:kde-sdk-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
+kde-system-meta:kde-system-meta:parabola:3597:[uses-nonfree] depends on blacklisted 'khelpcenter' - [technical] split-package with several other k-*-meta packages
+kde-utilities-meta:kde-utilities-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
+kdevelop:kdevelop:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+kdevelop-meta:kdevelop-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
+keybase-gui::parabola:2204:[uses-nonfree] depends on blacklisted 'electron'
+khelpcenter::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+kile:kile:::[uses-nonfree] recommends Adobe Reader
+kimagemapeditor::parabola:2012:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+kinfocenter:kinfocenter:parabola:3299:[uses-nonfree] depends on blacklisted 'fwupd'
+kio-gdrive::parabola:3597:[uses-nonfree] depends on blacklisted 'kaccounts-providers'
+kleopatra::parabola:2012:[uses-nonfree] depends on blacklisted 'mimetreeparser'
+kmail::parabola:2012:[uses-nonfree] depends on blacklisted akonadi-import-wizard,libksieve,messagelib,mailcommon,mbox-importer,pim-data-exporter,pim-sieve-editor
+knotes::parabola:2012:[uses-nonfree] depends on blacklisted 'kdepim-runtime'
+kodi-bin:kodi-bin:parabola:2503:[technical] part of 'kodi' split package (i686 only)
+kodi-dev:kodi-dev:parabola:2503:[technical] part of 'kodi' split package
+kodi-eventclients:kodi-eventclients:parabola:2503:[technical] part of 'kodi' split package
+kodi-gbm:kodi-gbm:parabola:2503:[technical] part of 'kodi' split package
+kodi:kodi:parabola:2503:[semifree] contains nonfree decompression engine for RAR archives and support for nonfree addons
+kodi-tools-texturepacker:kodi-tools-texturepacker:parabola:2503:[technical] part of 'kodi' split package
+kodi-wayland:kodi-wayland:parabola:2503:[technical] part of 'kodi' split package
+kodi-x11:kodi-x11:parabola:2503:[technical] part of 'kodi' split package
+konqueror:konqueror:fsf:konqueror:[semifree] recommends non-free plugins on about:home's specifications - depends on blacklisted 'qt5-webengine'
+kontact::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+kopete::fsf:kopete:[semifree] supports Skype - NOTE this entry can be removed when arch32 deletes their 'kopete'
+korganizer::parabola:2012:[uses-nonfree] depends on blacklisted akonadi-calendar,calendarsupport,eventviews,incidenceeditor,kdepim-runtime
+krusader::::[semifree] recommends nonfree programs like RAR
+ktorrent:ktorrent:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+lesspipe:lesspipe:::[semifree] recommends nonfree unrar
+lib32-mesa-demos:lib32-mesa-demos:::[semifree] The 'pointblast' and 'spriteblast' demos are nonfree
+lib32-nvidia-cg-toolkit::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+lib32-nvidia-utils::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+lib32-opencl-nvidia::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+lib32-primus::::[uses-nonfree] only useful with bumblebee
+lib32-primus_vk::::[uses-nonfree] depends on nonfree lib32-nvidia-utils
+libksieve::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+libosinfo:libosinfo:parabola:517:[uses-nonfree] contains non-FSDG compliant distros and operating systems support
+libretro-genesis-plus-gx::parabola:1011:[nonfree] noncommercial software https://github.com/libretro/Genesis-Plus-GX/blob/master/LICENSE.txt
+libretro-snes9x::parabola:1012:[nonfree] noncommercial software https://github.com/libretro/snes9x/blob/master/docs/snes9x-license.txt
+libsynctex:libsynctex:parabola:2695:[branding] rebranding due to other TeXLive changes
+libuhd-firmware::::[technical] Arch version was not built from source
+libunrar::::[nonfree] part of nonfree unrar, Issue442
+libxfce4ui:libxfce4ui:parabola:1117:[branding][FIXME:description]
+libxnvctrl:your-freedom:parabola:763:[uses-nonfree] only useful for nonfree nvidia driver - 'your-freedom' provides 'libxnvctrl' for arch dependents, possibly breaking some rather thn forking them all
+licenses:licenses:::[uses-nonfree] Remove non-free CC -NC and -ND licenses (also add WTFPL)
+linux-am33x-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-am33x:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-api-headers:linux-libre-api-headers:parabola:36:[semifree] has source containing and recommending nonfree software
+linux-armv7-chromebook:linux-libre-chromebook:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-armv7-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-armv7:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-armv7-odroidc1::fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] built for nonfree linux-armv7 kernel
+linux-armv7-rc-chromebook:linux-libre-chromebook:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-armv7-rc-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-armv7-rc:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-armv7-rc-odroidc1::fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] built for nonfree linux-armv7-rc kernel
+linux-clearfog-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-clearfog:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-docs:linux-libre-docs:::[semifree] docs comes from nonfree linux kernel
+linux-fimrware-atheros::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-amdgpu::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-bnx2x:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-broadcom::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-cirrus::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-intel::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-liquidio:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-marvell:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-mediatek::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-mellanox:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-nfp:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-nvidia::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-other::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-qcom:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-qlogic:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-radeon::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-realtek::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-whence:linux-libre-firmware-whence:fsf:linux-firmware:[nonfree] nonfree blobs
+linux-hardened-docs:linux-libre-hardened-docs:::[semifree] docs comes from nonfree linux-grsec kernel
+linux-hardened-headers:linux-libre-hardened-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-hardened:linux-libre-hardened:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-headers-odroid:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-headers-utilite-dt:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-imx6-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-imx6:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-lts-docs:linux-libre-lts-docs:::[semifree] docs comes from nonfree linux-lts kernel
+linux-lts-headers:linux-libre-lts-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-lts:linux-libre-lts:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-odroid-c1-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-odroid-c1:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-odroid-u2:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-odroid-x2:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-odroid-x:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-odroid-xu3-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-odroid-xu3:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-pae-docs::::[semifree] docs comes from nonfree linux-pae kernel
+linux-pae-headers::::[semifree] blobbed source
+linux-pae::::[semifree] nonfree blobs and firmwares
+linux-peach-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-peach:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-rpi::fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-rpi-headers::::[technical] headers for blacklisted 'linux-rpi'
+linux-rt-docs:linux-libre-rt-docs:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] docs comes from nonfree linux-rt kernel
+linux-rt-headers:linux-libre-rt-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-rt:linux-libre-rt:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-rt-lts-docs:linux-libre-rt-lts-docs:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] docs comes from nonfree linux-rt-lts kernel
+linux-rt-lts-headers:linux-libre-rt-lts-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-rt-lts:linux-libre-rt-lts:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linuxsampler::::[nonfree] licence of the sampler backend prohibits commercial use, the backend is thus not free software
+linux-tools-meta:linux-libre-tools-meta:::[semifree][technical] re-build from 'linux-libre'
+linux-utilite-dt:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-utilite-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-utilite:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-veyron-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-veyron:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-zedboard-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-zedboard:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+linux-zen-docs:linux-libre-pck-docs:::[semifree] docs comes from nonfree linux-zen kernel
+linux-zen-headers:linux-libre-pck-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
+linux-zen:linux-libre-pck:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
+lsb-release:lsb-release:::[branding][FIXME:description]
+lsd::parabola:3081:[uses-nonfree][technical] depends on blacklisted 'awesome-terminal-fonts' - not built from source
+lutris::parabola:2248:[uses-nonfree] Almost exclusively for intalling non-free software the few free packages it offers can be installed without it
+lxappearance-obconf-gtk3:lxappearance-obconf-gtk3:parabola:2236:[technical] fix segfault
+mac::fsf:Monkey.27s_Audio_Codec:[nonfree] Monkey's Audio Source Code License Agreement, changes must be contributed back
+magma-cuda::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda'
+magma-hip::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda'
+mailcommon::parabola:2012:[uses-nonfree] depends on blacklisted 'messagelib'
+marble-common:marble-common:parabola:2117:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+marble-maps:marble-maps:parabola:2117:[technical] part of 'marble' split-package (with blacklisted 'marble-common')
+marble:marble:parabola:2117:[technical] part of 'marble' split-package (with blacklisted 'marble-common')
+marble-qt:marble-qt:parabola:2117:[technical] part of 'marble' split-package (with blacklisted 'marble-common')
+mari0::::[nonfree] is licensed under cc-by-nc-sa
+mate-icon-theme-faenza:mate-icon-theme-faenza:parabola:3002:[semifree] has icons of nonfree distros and applications
+mate-sensors-applet:mate-sensors-applet:parabola:1051:[uses-nonfree] depends on nonfree libxnvctrl
+mattermost-desktop::parabola:1231:[uses-nonfree] built with blacklisted 'electron'
+maven:maven:::[technical] Arch version was not built from source
+mbox-importer::parabola:2012:[uses-nonfree] depends on blacklisted 'mailcommon'
+mc:mc:::[uses-nonfree] recommends nonfree unace, unrar and unarj optional installation
+mencoder:mencoder:::[uses-nonfree] depends on nonfree package faac, Parabola use mencoder, without dependency of faac
+merkuro::parabola:2012:[uses-nonfree] depends on blacklisted akonadi-calendar,kdepim-runtime,mailcommon,messagelib,mimetreeparser
+mermaid-cli::::[uses-nonfree] depends on blacklisted chromium
+mesa-demos:mesa-demos:fsf:mesademos:[semifree] The 'pointblast' and 'spriteblast' demos are nonfree
+meshroom::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda' <- 'magma-cuda' <- 'uncertainty-framework' <- 'alice-vision'
+messagelib::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+mimetreeparser::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+minitube:minitube:parabola:1457:[semifree] recommends unfree projects from same author
+mkosi::::[uses-nonfree] bootstrap basic non-FSDG compliant distributions
+mplayer:mplayer:::[uses-nonfree] depends on nonfree package faac, Parabola use mplayer, without dependency of faac
+nccl::parabola:3276:[uses-nonfree] depends on blacklisted 'cuda'
+neochat::parabola:3593:[uses-nonfree] depends on blacklisted 'qt6-webview'
+netbeans::parabola:837:[semifree] nonfree JDBC drivers are embedded into Netbeans
+netpbm:netpbm:parabola:3624:[semifree] some programs are licensed non-commercial, patent restricted, or unlicensed
+netperf::::[nonfree] license forbids commercial redistribution
+nextcloud-client-cloudproviders:nextcloud-client-cloudproviders:parabola:2107:[technical] part of 'netcloud-client' split package
+nextcloud-client:nextcloud-client:parabola:2107:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+nikto::parabola:1053:[semifree] contains nonfree databases
+nltk-data::::[semifree][FIXME:package] contains nonfree corpora. we'll have to remove those
+nmap::parabola:2966:[nonfree] use 'masscan' instead - the FSF considers the v7.9x license to be non-free - however, the previous license was apparently non-free also - (2021) ticket open on (private) tracker of FSF licensing team
+notion::::[nonfree] restrictions on modifications in the Ion licence
+nvidia-cg-toolkit::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+nvidia-dkms::parabola:825:[uses-nonfree] depends on nonfree package nvidia-utils
+nvidia-lts::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+nvidia::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+nvidia-open-dkms::parabola:3293:[nonfree] source include blobs
+nvidia-open::parabola:3293:[nonfree] source include blobs
+nvidia-prime::::[uses-nonfree] depends on nonfree nvidia-utils
+nvidia-settings::::[uses-nonfree] depends on nonfree package nvidia-utils
+nvidia-utils::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+nvtop::::[uses-nonfree] depends on nonfree nvidia-utils
+nyancat::parabola:778:[nonfree] contains ASCII art based on a copyrighted video
+obsidian-icon-theme::parabola:1231:[technical] probably libre, but only useful with blacklisted 'obsidian'
+obsidian::parabola:1231:[uses-nonfree] built with blacklisted 'electron'
+ogre:ogre:::[uses-nonfree] needs nvidia-cg-toolkit
+okular:okular:parabola:1067:[semifree] has copy-protection anti-feature turn on by default
+opencl-nvidia::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+opencv-cuda::parabola:3238:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn'
+opencv:opencv:parabola:735:[semifree] contains nonfree module and some nonfree data
+opencv-samples:opencv-samples:parabola:735:[technical] part of 'opencv' split-package
+openmw:openmw:parabola:612:[uses-nonfree] has wizard installation support to install nonfree assets from Morrowind to run Morrowind
+openshot:openshot:::[uses-nonfree] recommends nonfree faac optional installation
+openttd-opensfx::parabola:693:[nonfree] license CC Sampling Plus 1.0 restricting modification
+openttd:openttd:parabola:716:[uses-nonfree] recommends nonfree openttd-opensfx optional installation
+open-vm-tools::::[uses-nonfree] only useful with vmware
+opera-ffmpeg-codecs::parabola:2344:[nonfree] depends on nonfree 'opera'
+opera::parabola:2344:[nonfree] not open source. Arch package built from Debian .deb files. Also based on Chromium.
+p7zip:p7zip:::[semifree] contains nonfree unrar
+pacman-mirrorlist:pacman-mirrorlist:::[branding] points to Arch mirrors, not Parabola mirrors
+pacman:pacman:::[technical] needs be repackaged to add [libre] repo
+parley:parley:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+perf:linux-libre-tools-perf:::[semifree][technical] re-build from 'linux-libre'
+performous-freesongs:performous-freesongs:::[semifree] contains nonfree songs
+#per-graphviz:per-graphviz:::[FIXME:description] is "Artistic 2.0 License" and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/dist/GraphViz
+perl-algorithm-annotate::::[semifree] contains unlicensed files - http://search.cpan.org/dist/Algorithm-Annotate
+#perl-anyevent-i3:perl-anyevent-i3:::[FIXME:description] is GPL/PerlArtistic License and not GPL, see (in source code): http://search.cpan.org/dist/AnyEvent-I3 (README file in source)
+perl-authen-radius::::[uses-nonfree][FIXME:description] is "Artistic 2.0 License", not GPL/PerlArtistic and depends perl-data-hexdump, see (in source code): http://search.cpan.org/dist/Authen-Radius
+#perl-capture-tiny:perl-capture-tiny:::[FIXME:description] is Apache2 License and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/dist/Capture-Tiny
+#perl-carp-clan:perl-carp-clan:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/Carp-Clan (Makefile.PL file in source)
+#perl-compress-bzip2:perl-compress-bzip2:::[FIXME:description] is GPL/PerlArtistic License and not GPL2, see (in source code): http://search.cpan.org/dist/Compress-Bzip2
+#perl-convert-binhex:perl-convert-binhex:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/Convert-BinHex
+perl-crypt-cbc::::[nonfree] the source contains "Nonfree Artistic 1.0 License" on CBC.pm only and unlicensed files - http://search.cpan.org/dist/Crypt-CBC
+#perl-crypt-openssl-bignum:perl-crypt-openssl-bignum:::[FIXME:description] is GPL/PerlArtistic License and not GPL, see (in source code): http://search.cpan.org/dist/Crypt-OpenSSL-Bignum
+#perl-crypt-openssl-random:perl-crypt-openssl-random:::[FIXME:description] is GPL/PerlArtistic License and not GPL, see (in source code): http://search.cpan.org/dist/Crypt-OpenSSL-Random
+#perl-data-dumper::::[nonfree] contains unlicensed files - http://search.cpan.org/dist/Data-Dumper
+perl-data-hexdump::::[nonfree] contains unlicensed files http://search.cpan.org/dist/Data-HexDump
+#perl-data-random::::[uses-nonfree] free but depends perl-yaml-tiny(build with perl-module-build-tiny(perl-extutils-config->perl-data-dumper))
+#perl-date-calc:perl-date-calc:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/Date-Calc (README.txt file in source)
+#perl-date-manip:perl-date-manip:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/Date-Manip
+#perl-datetime-format-builder:perl-datetime-format-builder:::[FIXME:description] is "Artistic 2.0 License" and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/dist/DateTime-Format-Builder
+#perl-devel-stacktrace:perl-devel-stacktrace:::[FIXME:description] is "Artistic 2.0 License" and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/dist/Devel-StackTrace
+#perl-device-serialport:perl-device-serialport:::[FIXME:description] is GPL/PerlArtistic, but the SerialPort.pm file is GPL/PerlArtistic License or GLP2 License
+#perl-digest-hmac:perl-digest-hmac:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/Digest-HMAC
+#perl-digest-sha1:perl-digest-sha1:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/Digest-SHA1
+#perl-event-execflow:perl-event-execflow:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/~jred/Event-ExecFlow
+#perl-extutils-config::::[uses-nonfree] free but depends perl-data-dumper
+#perl-extutils-depends:perl-extutils-depends:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/ExtUtils-Depends
+#perl-extutils-installpaths::::[uses-nonfree] free but depends perl-extutils-config(perl-data-dumper)
+#perl-file-mmagic:perl-file-mmagic:::[FIXME:description] is "Apache 1.0 License" and not PerlArtistic, see (in source code): http://search.cpan.org/dist/File-MMagic
+#perl-file-next:perl-file-next:::[FIXME:description] is "Artistic 2.0 License" and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/dist/File-Next
+perl-getopt-argvfile::::[nonfree] is "Nonfree Artistic 1.0 License" and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/~jstenzel/Getopt-ArgvFile
+#perl-gtk2-ex-formfactory:perl-gtk2-ex-formfactory:::[FIXME:description] is GLP2/LGPL2 License and not LGPL, see (in source code): http://search.cpan.org/dist/Gtk2-Ex-FormFactory
+#perl-gtk2-webkit:perl-gtk2-webkit:::[FIXME:description] is LGPL2 License and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/dist/GTK2-WebKit
+#perl-html-element-extended:perl-html-element-extended:::[FIXME:description] is GPL/PerlArtistic License and not GPL, see (in source code): http://search.cpan.org/dist/GTK2-HTML-Element-Extended
+#perl-html-parser:perl-html-parser:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/GTK2-HTML-Parser
+#perl-html-tagset:perl-html-tagset:::[FIXME:description] is GPL/PerlArtistic License and not PerlArtistic, see (in source code): http://search.cpan.org/dist/GTK2-HTML-Tagset
+#perl-image-exiftool:perl-image-exiftool:::[FIXME:description] is GPL/PerlArtistic License and not GPL, see (in source code): http://search.cpan.org/~exiftool/GTK2-Image-ExifTool
+#perl-image-size:perl-image-size:::[FIXME:description] is GPL/PerlArtistic License and the source contains "LGPL2 and Artistic 2.0 License" on lib/Image/Size.pm imgsize
+perl-inline-java::::[nonfree] the source contains "Nonfree Artistic 1.0 License" on Java.pod, Java/Callback.pod, Java/PerlInterpreter/PerlInterpreter.pod, Java/PerlNatives/PerlNatives.pod only; LGPL License on Java/sources/org/perl/java/InlineJavaUtils.java only and unlicensed files - http://search.cpan.org/dist/Inline-Java
+#perl-module-build-tiny::::[uses-nonfree] free but depends perl-extutils-config(perl-data-dumper)
+#perl-net-dropbox-api::::[uses-nonfree] free but depends perl-data-random(perl-yaml-tiny(build with perl-module-build-tiny(perl-extutils-config->perl-data-dumper)))
+#perl-sdl:perl-sdl:::[FIXME:description] is GPL2 and not LGPL, see (in source code): http://search.cpan.org/dist/SDL
+perl-soap-lite::::[semifree] is GPL/PerlArtistic License with CC-by-nd on documentation http://search.cpan.org/dist/SOAP-Lite (README file in source)
+#perl-x11-protocol:perl-x11-protocol:::[FIXME:description] is GPL/PerlArtistic and custom (keysyms.pm) License and not GPL/PerlArtistic, see (in source code): http://search.cpan.org/dist/X11-Protocol
+#perl-yaml-tiny::::[uses-nonfree] free but makedepends perl-module-build-tiny(perl-extutils-config->perl-data-dumper)
+phpvirtualbox::::[uses-nonfree] only useful with virtualbox
+pim-data-exporter::parabola:2012:[uses-nonfree] depends on blacklisted 'mailcommon'
+pim-sieve-editor::parabola:2012:[uses-nonfree] depends on blacklisted 'libksieve'
+pkgstats::::[branding] [FIXME:package] sends a list of all installed packages, the architecture and the mirror you are using to the Arch Linux project rebranding
+plasma-meta:plasma-meta:parabola:2847:[uses-nonfree] depends on blacklisted 'discover'
+plymouth:plymouth:::[branding] replace arch logo with parabola logo
+podman-desktop::parabola:1231:[uses-nonfree] depends on blacklisted 'electron'
+ponysay:ponysay:parabola:206:[semifree] contains nonfree pony graphics
+povray:povray:::[semifree] contains nonfree documentation (CC by-nc-sa) see: https://github.com/POV-Ray/povray/blob/master/README.md (POV-Ray below 3.7 version are nonfree software)
+primus::::[uses-nonfree] only useful with bumblebee
+primus_vk::::[uses-nonfree] depends on nonfree nvidia-utils
+psensor:psensor:parabola:1914:[uses-nonfree] depends on nonfree libxnvctrl
+pychess::parabola:2027:[uses-nonfree] installs non-free timestamp
+pyqt6-webengine-debug::parabola:1167:[uses-nonfree] debug symbols for blacklisted 'python-pyqt6-webengine'
+pyside6:pyside6:parabola:3611:[uses-nonfree] makedepends and optdepends on blacklisted 'qt6-webengine'
+pyside6-tools:pyside6-tools:parabola:3611:[uses-nonfree] makedepends and optdepends on blacklisted 'qt6-webengine' (part of 'pyside6' split-package)
+pysolfc-cardsets:pysolfc-cardsets:::[semifree] some copyrighted cardsets
+python2-pip::parabola:1035:[uses-nonfree] The repository that python-pip uses allows any license, including nonfree licenses
+python2-unrardll::::[uses-nonfree] depends on nonfree libunrar
+python-cuda-docs::parabola:3239:[nonfree] License forbid modification - depends on blacklisted 'cuda'
+python-cuda::parabola:3239:[nonfree] License forbids modification - depends on blacklisted 'cuda'
+python-distributed::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+python-opencv-cuda::parabola:735:[uses-nonfree] depends on blacklisted 'cuda'
+python-opencv:python-opencv:parabola:735:[technical] part of 'opencv' split-package
+python-pip::parabola:1035:[uses-nonfree] The repository that python-pip uses allows any license, including nonfree licenses
+python-pycuda::parabola:1375:[uses-nonfree] depends on blacklisted 'cuda'
+python-pyqt5:python-pyqt5:parabola:3385:[technical] restore support for qt5-webkit dependents (see also #1167)
+python-pyqt5-webengine::parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+python-pyqt6-webengine::parabola:1167:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+python-pytorch-cuda::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn'
+python-pytorch-opt-cuda::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn'
+python-pytorch-opt::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+python-pytorch-opt-rocm::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+python-pytorch::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda' - depends on blacklisted 'intel-oneapi-mkl' (#2707 and #3110)
+python-pytorch-rocm::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+python-reportlab:python-reportlab:::[semifree] setup.py downloads adobe t1 fonts without license
+python-tensorflow-cuda::parabola:1375:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn'
+python-tensorflow-opt-cuda::parabola:1375:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn'
+python-tensorflow-opt::parabola:2599:[technical] downloads bazel-0.19 binary
+python-tensorflow::parabola:2599:[technical] downloads bazel-0.19 binary
+python-torchvision-cuda::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+python-torchvision::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+python-unrardll::::[uses-nonfree] depends on nonfree libunrar
+qsampler::::[uses-nonfree] depends on nonfree linuxsampler
+qt5-webengine::parabola:1167:[uses-nonfree][FIXME:package] Arch enables proprietary codecs - derived from blacklisted 'chromium' - see https://lists.nongnu.org/archive/html/gnu-linux-libre/2018-04/msg00001.html
+qt5-webview::parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+qt6-webengine::parabola:1167:[uses-nonfree][FIXME:package] Arch enables proprietary codecs - derived from blacklisted 'chromium' - see https://lists.nongnu.org/archive/html/gnu-linux-libre/2018-04/msg00001.html
+qt6-webview::parabola:1167:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+qtcreator:qtcreator:parabola:3171:[uses-nonfree] depends on blacklisted 'qt6-webengine'
+qutebrowser:qutebrowser:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine' (via 'python-pyqt5-webengine')
+r8168-lts::::[nonfree] blobs
+r8168::::[nonfree] blobs
+referenceassemblies-pcl::parabola:1334:[nonfree] missing source code, restrictions on usage
+reflector:reflector:::[branding][FIXME:description]
+retroarch:retroarch:parabola:1014:[semifree] contains nonfree ROMs, games and emulators database, and recommends blacklisted 'libretro-genesis-plus' and 'libretro-snes9x'
+rfc::parabola:630:[nonfree] documentation with restrictions on modification
+rhino-javadoc:rhino-javadoc:::[technical] Arch version was not built from source
+riscv64-linux-gnu-linux-api-headers:riscv64-linux-gnu-linux-libre-api-headers:parabola:36:[semifree] has source containing and recommending nonfree software
+root-cuda::parabola:2212:[uses-nonfree] depends on blacklisted 'cuda'
+ruby2.7:ruby2.7:parabola:674:[semifree] json module has nonfree CVTUTF code; replace with pure Ruby implementation
+ruby-bundled-gems:ruby-bundled-gems:parabola:674:[technical] Rebuilt as part of 'ruby' package
+ruby-default-gems:ruby-default-gems:parabola:674:[technical] Rebuilt as part of 'ruby' package
+ruby-docs:ruby-docs:parabola:674:[technical] Rebuilt as part of 'ruby' package
+rubygems:rubygems:parabola:1035:[uses-nonfree] The default repository (rubygems.org) allows any license, including nonfree licenses
+ruby:ruby:parabola:674:[semifree] json module has nonfree CVTUTF code; replace with a free version
+ruby-stdlib:ruby-stdlib:parabola:674:[technical] Rebuilt as part of 'ruby' package
+rye::parabola:1035:[uses-nonfree] third-party package manager (drop-in replacement for 'python-pip')
+sane-gt68xx-firmware::::[nonfree] Contains nonfree Software
+sauerbraten-data::parabola:1881:[nonfree] CC-NC data
+sauerbraten::parabola:1881:[uses-nonfree] free but needs -data
+seamonkey:iceape:::[semifree][branding] contains propietary artwork and trademark issues, points to the nonfree addon site
+sensors-applet:sensors-applet:parabola:1051:[uses-nonfree] depends on nonfree libxnvctrl
+shiboken6:shiboken6:parabola:3611:[uses-nonfree] makedepends and optdepends on blacklisted 'qt6-webengine' (part of 'pyside6' split-package)
+sigil:sigil:parabola:2399:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+signal-desktop::parabola:3222:[uses-nonfree] built with blacklisted 'electron'
+signon-ui:signon-ui:parabola:2603:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+simutrans::fsf:simutrans:[nonfree] nonfree license: Artistic license 1.0
+simutrans-pak128::fsf:simutrans:[nonfree] nonfree license: Artistic license 1.0
+simutrans-pak64::fsf:simutrans:[nonfree] nonfree license: Artistic license 1.0
+slim-themes::::[branding][FIXME:package] has "archlinux" theme
+smplayer:smplayer:::[uses-nonfree] recommends nonfree smtube optional installation
+smtube::::[semifree] uses Tonvid.com as SaaSS (Service as a Software Substitute) and also it collects user information and uses Google Analytics -> http://tonvid.com/privacy-policy.php
+snes9x-gtk::::[nonfree] depends on nonfree package faac and the core of snes9x-gtk is snes9x under snes9x license http://code.google.com/p/snes9x-gtk http://github.com/snes9xgit/snes9x/blob/master/docs/snes9x-license.txt
+snes9x::::[nonfree] noncommercial software http://github.com/snes9xgit/snes9x/blob/master/docs/snes9x-license.txt
+sof-firmware::::[technical] Arch version was not built from source. Some (probably not all) firmwares are signed by the hardware manufacturers.
+sof-tools::::[technical] Arch version was not built from source Some (probably not all) firmwares are signed by the hardware manufacturers.
+soundkonverter:soundkonverter:::[uses-nonfree] recommends nonfree faac and mac optional installation
+spyder::parabola:2791:[uses-nonfree] depends on blacklisted 'qt5-webengine' (via 'python-pyqt5-webengine')
+sqlite-doc::::[FIXME:description] portions of the documentation and some code used as part of the build process might fall under other licenses. The details here are unclear. We do not worry about the licensing of the documentation and build code so much because none of these things are part of the core deliverable SQLite library
+steam-native-runtime::::[uses-nonfree] only useful with nonfree steam
+steam::::[nonfree] binary package
+supercollider:supercollider:parabola:1167:[uses-nonfree] built with blacklisted 'qt5-webengine'
+syslinux:syslinux:::[branding][FIXME:description]
+systemd-libs:systemd-libs:::[technical] Because systemd and libsystemd are being repackaged anyway (same PKGBUILD)
+systemd-resolvconf:systemd-resolvconf:::[technical] Because systemd and libsystemd are being repackaged anyway (same PKGBUILD)
+systemd:systemd:::[branding] Parabola, not Arch [technical] Use linux-libre [recommends-nonfree] Say GNU/Linux, use FSDG distros as examples
+systemd-sysvcompat:systemd-sysvcompat:::[technical] Because systemd and libsystemd are being repackaged anyway (same PKGBUILD)
+tarsnap::::[nonfree] self-admittedly non-free https://www.tarsnap.com/open-source.html ; "use ... is permitted for the sole purpose of using the ... service provided by Tarsnap Backup Inc."
+teamspeak3::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+teamspeak3-server::::[nonfree] nonfree, nondistributable, built from binary installers, etc
+tensorflow-cuda::parabola:1375:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn'
+tensorflow-opt-cuda::parabola:1375:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn'
+tensorflow-opt::parabola:2599:[technical] downloads bazel-0.19 binary
+tensorflow::parabola:2599:[technical] downloads bazel-0.19 binary
+terraform::parabola:3519:[nonfree] v>=1.6 restricts competitive use - could freeze at v1.5.5; but has an absurd numnber of undeclared/unaudited dependencies
+terragrunt::parabola:3519:[uses-nonfree] depends on blacklisted 'terraform'
+texlive-bin:texlive-bin:parabola:2695:[branding] [semifree] rebranding due to other TeXLive changes
+texlive-core:texlive-core:parabola:2698:[semifree] some nonfree packages
+texlive-fontsextra:texlive-fontsextra:parabola:2700:[semifree] some nonfree packages
+texlive-latexextra:texlive-latexextra:parabola:2699:[semifree] some nonfree packages
+thunderbird-dark-reader::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-af:icedove-l10n-af::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ar:icedove-l10n-ar::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ast:icedove-l10n-ast::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-be:icedove-l10n-be::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-bg:icedove-l10n-bg::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-br:icedove-l10n-br::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ca:icedove-l10n-ca::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-cak:icedove-l10n-cak::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-cs:icedove-l10n-cs::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-cy:icedove-l10n-cy::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-da:icedove-l10n-da::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-de:icedove-l10n-de::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-dsb:icedove-l10n-dsb::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-el:icedove-l10n-el::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-en-gb:icedove-l10n-en-gb::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-en-us:icedove-l10n-en-us::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-es-ar:icedove-l10n-es-ar::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-es-es:icedove-l10n-es-es::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-et:icedove-l10n-et::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-eu:icedove-l10n-eu::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-fi:icedove-l10n-fi::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-fr:icedove-l10n-fr::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-fy-nl:icedove-l10n-fy-nl::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ga-ie:icedove-l10n-ga-ie::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-gd:icedove-l10n-gd::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-gl:icedove-l10n-gl::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-he:icedove-l10n-he::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-hr:icedove-l10n-hr::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-hsb:icedove-l10n-hsb::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-hu:icedove-l10n-hu::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-hy-am:icedove-l10n-hy-am::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-id:icedove-l10n-id::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-is:icedove-l10n-is::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-it:icedove-l10n-it::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ja:icedove-l10n-ja::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-kab:icedove-l10n-kab::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ka:icedove-l10n-ka::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-kk:icedove-l10n-kk::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ko:icedove-l10n-ko::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-lt:icedove-l10n-lt::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ms:icedove-l10n-ms::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-nb-no:icedove-l10n-nb-no::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-nl:icedove-l10n-nl::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-nn-no:icedove-l10n-nn-no::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-pa-in:icedove-l10n-pa-in::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-pl:icedove-l10n-pl::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-pt-br:icedove-l10n-pt-br::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-pt-pt:icedove-l10n-pt-pt::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-rm:icedove-l10n-rm::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ro:icedove-l10n-ro::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-ru:icedove-l10n-ru::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-sk:icedove-l10n-sk::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-sl:icedove-l10n-sl::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-sq:icedove-l10n-sq::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-sr:icedove-l10n-sr::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-sv-se:icedove-l10n-sv-se::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-th:icedove-l10n-th::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-tr:icedove-l10n-tr::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-uk:icedove-l10n-uk::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-uz:icedove-l10n-uz::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-vi:icedove-l10n-vi::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-zh-cn:icedove-l10n-zh-cn::::[uses-nonfree] depends on 'thunderbird'
+thunderbird-i18n-zh-tw:icedove-l10n-zh-tw::::[uses-nonfree] depends on 'thunderbird'
+thunderbird:icedove::::[semifree][branding] contains propietary artwork, recommends nonfree add-ons, non-privacy search engines
+tmon:linux-libre-tools-tmon:::[semifree][technical] re-build from 'linux-libre'
+tokodon::parabola:3598:[uses-nonfree] depends on blacklisted 'qt6-webview'
+torbrowser-launcher::parabola:2830:[uses-nonfree] This downloads the Tor Browser which is configured to use Mozilla's addon repository which contains nonfree software. And the FSDG states that "The system should have no repositories for nonfree software. Nor should the distribution refer to third-party repositories that are not committed to only including free software".
+torchvision-cuda::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+torchvision::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
+tp_smapi-lts:tp_smapi-lts:::[technical] adapted to nonfree linux-lts kernel
+tp_smapi:tp_smapi:::[technical] adapted to nonfree linux kernel
+traefik::parabola:2997:[technical] downloads hundreds of golang dependencies at build-time (probably not compiled from source)
+translate-shell::parabola:3146:[semifree] SaaSS (Service as a Software Substitute) substitute for apertium
+ttf-hannom::::[nonfree] non-commercial license https://git.archlinux.org/svntogit/packages.git/commit/trunk/README?h=packages/ttf-hannom&id=bdd0a7d145c56836c27f126d090d2d22cc88713d
+ttf-joypixels::parabola:2479:[nonfree] non-commercial license, modifications not permitted
+ttf-ubuntu-font-family::parabola:1055:[nonfree] Ubuntu font license considered non-free by DFSG and Fedora
+turbostat:linux-libre-tools-turbostat:::[semifree][technical] re-build from 'linux-libre'
+uboot-a10-olinuxino-lime:uboot-a10-olinuxino-lime:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-a10s-olinuxino-micro:uboot-a10s-olinuxino-m:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-a13-olinuxino-micro:uboot-a13-olinuxinom:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-a13-olinuxino:uboot-a13-olinuxino:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-a20-olinuxino-lime2:uboot-a20-olinuxino-lime2:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-a20-olinuxino-lime:uboot-a20-olinuxino-lime:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-a20-olinuxino-micro:uboot-a20-olinuxino_micro:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-beagleboard:uboot-omap3_beagle:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-beaglebone:uboot-am335x_bone:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-boundary:uboot-nitrogen6q:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-chiliboard:uboot-chiliboard:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-cubieboard2:uboot-cubieboard2:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-cubieboard:uboot-cubieboard:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-cubietruck:uboot-cubietruck:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-cubox-i:uboot-mx6_cubox-i:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-odroid-c1::parabola:3095:[uses-nonfree] adapted to nonfree linux kernel and ODROID devices that requires nonfree startup software -> https://www.fsf.org/resources/hw/single-board-computers
+uboot-odroid::parabola:3095:[uses-nonfree] adapted to nonfree linux kernel and ODROID devices that requires nonfree startup software -> https://www.fsf.org/resources/hw/single-board-computers
+uboot-odroid-x::parabola:3095:[uses-nonfree] adapted to nonfree linux kernel and ODROID devices that requires nonfree startup software -> https://www.fsf.org/resources/hw/single-board-computers
+uboot-odroid-xu3::parabola:3095:[uses-nonfree] adapted to nonfree linux kernel and ODROID devices that requires nonfree startup software -> https://www.fsf.org/resources/hw/single-board-computers
+uboot-pandaboard:uboot-omap4_panda:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-pcduino3-nano:uboot-linksprite_pcduino3_nano:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-pcduino3:uboot-linksprite_pcduino3:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-pcduino:uboot-linksprite_pcduino:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-tools:uboot-libre-tools:parabola:3095:[use-nonfree] build from uboot-libre source
+uboot-trimslice:uboot-trimslice:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-usbarmory:uboot-usbarmory:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-wandboard:uboot-wandboard:parabola:3095:[technical] adapted to nonfree linux kernel
+uboot-zedboard::parabola:3095:[technical] adapted to nonfree linux kernel and Arch ARM version was not built from source
+ubuntu-keyring:trisquel-keyring:::[uses-nonfree] contains non-FSDG compliant distro and operating system support
+unace::::[nonfree] license forbids making competing ACE archivers from unace
+unarj::::[nonfree] license forbids making competing ARJ archivers from unarj. arj shouldn't be mentioned as replacement as long as it isn't modified to conflicts=(unarj), etc
+uncertainty-framework::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda' <- 'magma-cuda'
+unp:unp:parabola:715:[uses-nonfree] recommends nonfree unace, unrar and unarj optional installation
+unrar::fsf:unrar:[nonfree] no replacement necessary - other packages already provide the same functionality
+unzip:unzip:::[semifree] contains a source file that doesn't mention modification
+usbip:linux-libre-tools-usbip:::[semifree][technical] re-build from 'linux-libre'
+vapoursynth-plugin-fluxsmooth::parabola:630:[nonfree] no license
+veracrypt::parabola:1139:[nonfree] partially licensed under the terms of the TrueCrypt License 3.0 which is nonfree -> https://www.gnu.org/licenses/license-list.html#Truecrypt-3.0
+vhba-module-dkms:vhba-module-dkms:::[technical] Recompile for linux-libre kernel instead of linux kernel
+vhba-module:vhba-module:::[technical] adapted to nonfree linux kernel
+vim-ctrlp::parabola:2683:[nonfree] unknown licensing
+vim-jad::parabola:2683:[nonfree] unknown licensing
+vim-pastie::parabola:2683:[nonfree] unknown licensing
+virt-install:virt-install:parabola:1130:[uses-nonfree] contains non-FSDG compliant distros and operating systems support
+virt-manager:virt-manager:parabola:1130:[technical] part of 'virt-manager' split-package (blacklisted 'virt-install')
+virtualbox-ext-vnc::::[uses-nonfree] depends on virtualbox
+virtualbox-guest-dkms::::[uses-nonfree] depends on virtualbox
+virtualbox-guest-iso::::[uses-nonfree] depends on virtualbox
+virtualbox-guest-utils-nox::parabola:639:[uses-nonfree] depends on virtualbox
+virtualbox-guest-utils::::[uses-nonfree] depends on virtualbox
+virtualbox-host-dkms::::[uses-nonfree] depends on virtualbox
+virtualbox-host-modules-arch::::[uses-nonfree] depends on virtualbox
+virtualbox::::[nonfree] contains BIOS which needs a nonfree compiler to build from source (OpenWatcom compiler), doesn't contains free distros presets for the virtual machine creation wizard, supports for nonfree Extension Pack, has nonfree user manual and adapted to nonfree linux kernel
+virtualbox-sdk::::[uses-nonfree] depends on virtualbox
+vivaldi-ffmpeg-codecs::parabola:2924:[technical] only useful for blacklisted vivaldi browser
+vivaldi::parabola:2924:[nonfree] UI code is proprietary and obfuscated
+vulscan::parabola:2966:[uses-nonfree] depends on blacklisted 'nmap'
+winetricks:winetricks-libre:parabola:366:[uses-nonfree] recommends and installs nonfree software
+wire-desktop::parabola:2201:[uses-nonfree] depends on blacklisted 'electron'
+wiznote::parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
+x86_energy_perf_policy:linux-libre-tools-x86_energy_perf_policy:::[semifree][technical] re-build from 'linux-libre'
+xarchiver-gtk2:xarchiver-gtk2:::[uses-nonfree] recommends nonfree unrar
+xarchiver:xarchiver:::[uses-nonfree] recommends nonfree unrar
+xdm-archlinux::::[branding][FIXME:description]
+xmms2:xmms2:parabola:841:[uses-nonfree] depends and recommends nonfree mac installation
+xscreensaver:xscreensaver:parabola:131:[semifree] dmsc.asm file don't have source code supplied
+ydcv::parabola:3147:[semifree] SaaSS (Service as a Software Substitute) substitute for apertium
+zanshin::parabola:2012:[uses-nonfree] depends on blacklisted 'kdepim-runtime'
+zeitgeist-explorer:zeitgeist-explorer:parabola:3376:[technical] fix neglected upstream bug (arch #71248)
+zerotier-one::parabola:3201:[nonfree] nonfree BSL license
+zettlr::parabola:1231:[uses-nonfree] depends on blacklisted 'electron'

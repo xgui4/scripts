@@ -1,0 +1,15 @@
+#!/sbin/openrc-run
+# Copyright 1999-2017 Gentoo Foundation
+description="Supergfx Daemon"
+command="/usr/bin/supergfxd"
+command_background=true
+pidfile="/run/${RC_SVCNAME}.pid"
+
+# Required for the daemon to run properly
+supervisor=supervise-daemon
+supervise_daemon_args="-e IS_SUPERGFX_SERVICE=1"
+
+depend() {
+    after logger dbus
+    use graphics
+}

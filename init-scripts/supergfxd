@@ -1,5 +1,9 @@
 #!/sbin/openrc-run
 # Copyright 1999-2017 Gentoo Foundation
+# Copyright 2026 Xgui4
+# based from this help :https://gitlab.com/asus-linux/asusctl/-/work_items/59#note_835039561
+# and https://gitlab.com/asus-linux/asusctl/-/work_items/59#note_1726299847
+
 description="Supergfx Daemon"
 command="/usr/bin/supergfxd"
 command_background=true
@@ -8,6 +12,13 @@ pidfile="/run/${RC_SVCNAME}.pid"
 # Required for the daemon to run properly
 supervisor=supervise-daemon
 supervise_daemon_args="-e IS_SUPERGFX_SERVICE=1"
+
+Type=dbus
+BusName=org.supergfxctl.Daemon
+IS_SERVICE=1 /usr/bin/supergfxd
+
+output_log="/var/log/supergfx.log" 
+error_log="/var/log/supergfx.err"
 
 depend() {
     after logger dbus

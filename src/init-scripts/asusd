@@ -1,0 +1,15 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2017 Gentoo Foundation
+# Copyright Xgui4 2026
+# based on this help : https://gitlab.com/asus-linux/asusctl/-/work_items/59#note_834991927
+
+description="Asusctl Daemon"
+command="/usr/bin/asusd"
+command_background=true
+pidfile="/run/{$RC_SVCAME}.pid"
+supervisor=supervise-daemon
+supervise_daemon_args="-e IS_SERVICE=1"
+    
+depend() {
+   after logger modules
+}

@@ -1,0 +1,64 @@
+# How to Blacklist a package (adapted from [1]Parabola GNU/Linux-Libre Wiki)
+
+if you find a package that contains, uses or recommends nonfree
+software, it should be added to blacklist.txt until a way to free it
+is found. more generally, any package in violation to the [2]FSDG
+belongs in blacklist.txt
+
+other packages should be added to your-privacy-blacklist.txt,
+your-freedom_emu-blacklist.txt or both if they endanger privacy or
+only exist for the sake of using nonfree software; respectively. see
+[3] and [4] for more info.
+
+
+## Reporting a freedom bug
+
+  Every blacklisted package should have an associated bug report
+  for the purpose of documentation. This can be a bug report on the
+  debian, savannah, fedora, or parabola bug trackers, or en entry on the
+  libreplanet 'List_of_software_that_does_not_respect_the_FSDG" wiki page.
+  This should be referenced in the blacklist entry, as explained in the SYNTAX file,
+
+  Ideally the bug report should detail the precise nature of the freedom issues,
+  the liberation procedure if one is known, or some alternate replacement, if any,
+  that can be used if there is no viable liberation procedure.
+
+  If no such bug report yet exists:
+
+  * file a bug report on the [7]Parabola Issue Tracker
+  * choose the project responsible for it, nearly always "Packages"
+  * choose the "Freedom issue" type and priority
+
+
+## Preferred method (blacklisting the package)
+
+    1. Start by trying to liberate the package in whatever way possible
+       in order to make it useful in freedom. If that is not possible or is
+       too much work or will be too high-maintenance relative to the program's
+       usefulness, try finding some alternate replacement program
+       that accomplishes the same task. If that turns out to be is similarly
+       unfruitful, simply continue blacklisting the package with no replacement.
+       NOTE: your-freedom_emu-blacklist packages are not meant to have replacements.
+    2. Pull [8]blacklist.git.
+    3. Add an entry for the package according to the SYNTAX file.
+    4. Run ./check.sh. This will detect any syntax errors, and also sort the entries
+       and remove empty lines. Please do this. It will help parsers do their jobs.
+    5. If you have [5]git write access, push the changes back.
+       If not, send a patch produced using `git format-patch` to dev@lists.parabola.nu.
+    6. If you have shell access, ssh into repo.parabola.nu and run db-check-nonfree.
+    7. If you have repo access, and you have made a libre replacement package,
+       pull [9]abslibre.git and add the PKGBUILD as libre/THE-EXACT-PACKAGE-NAME/PKGBUILD.
+       Then package it and publish it in the normal way with libretools.
+
+
+## References:
+
+[1]: https://wiki.parabola.nu/How_to_Blacklist_a_package
+[2]: https://www.gnu.org/distros/free-system-distribution-guidelines.html
+[3]: https://wiki.parabola.nu/Nonprism
+[4]: https://wiki.parabola.nu/Emulator_licensing_issues
+[5]: https://git.parabola.nu
+[6]: https://wiki.parabola.nu/Creating_-libre_packages
+[7]: https://labs.parabola.nu
+[8]: https://git.parabola.nu/blacklist.git
+[9]: https://git.parabola.nu/abslibre.git

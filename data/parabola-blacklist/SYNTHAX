@@ -1,0 +1,82 @@
+The *blacklist.txt files consist of lines in the following format:
+
+    original-package:[libre-replacement]:ref:id:short-description
+
+* 'original-package' is the name of the binary package from Arch
+
+* 'libre-replacement' is the name of the binary package that provides
+  and replaces the original-package, or empty if there is no
+  compatible replacement. The replacement must be compatible for use
+  by humans and scripts, e.g. fastjar is not a replacement for zip
+  although both solve the same problem. Packages in
+  your-freedom_emu-blacklist.txt are not meant to have a replacement.
+
+* 'ref' is one of the keys in the first column in following table:
+
+    debian   : http://bugs.debian.org/
+    fsf      : http://libreplanet.org/wiki/List_of_software_that_does_not_respect_the_Free_System_Distribution_Guidelines#
+    savannah : https://savannah.nongnu.org/bugs/?
+    fedora   : https://bugzilla.redhat.com/show_bug.cgi?id=
+    parabola : https://labs.parabola.nu/issues/
+
+  The URL in the second column in above table, when concatenated with
+  the value of the 'id' field should form a valid URL pointing to an
+  associated ticket on the web.
+
+  We should prefer FSF refs, since they are easily available for other
+  distros.  Hopefully some lines will move from parabola:X to fsf:Y with
+  the LibrePlanet wiki linking to the X issue on labs.parabola.nu.
+
+* 'id' refers to a reported bug on the tracker indicated in the 'ref' column
+  The URL in the second column in 'ref' table, when concatenated with
+  the value of this 'id' field should form a valid URL pointing to a
+  ticket on the web that describes the reason for the package being blacklisted,
+  and when applicable, whatever liberation procedure was used
+  to create a replacement package.
+
+* 'short-description' categorizes original-package with some tags,
+  followed by a short verbal explanation. Popular tags are:
+
+    [nonfree]·······This package is blatently non-free software.
+
+    [semifree]······This package is mostly free, but contains some non-free
+                    software or documentation.
+
+    [uses-nonfree]··This package depends on, recommends, or otherwise
+                    inappropriately integrates with other non-free software
+                    or services.
+
+    [antifeatures]··This package has features which serve only the publisher,
+                    or is otherwise undesirable to any user, per the FSDG.
+                    eg: spy-ware, mal-ware, ad-ware, "phone-home", etc
+                    TODO: this blacklist reason tag is not yet recognized
+                          by any of Parabola's tools.
+
+    [branding]······This package has branding needs adjusted; it refers to
+                    "Arch" instead of "Parabola", or "Linux" instead of
+                    "GNU/Linux", etc.
+
+    [technical]·····This package cannot be imported from Arch because of
+                    technical reasons, rather than freedom reasons; this is
+                    NOT to do with freedom or privacy issues in the
+                    package.  This usually comes down to two things: it
+                    must be recompiled against our version of a dependency
+                    package, or it must be compiled from source, as we are
+                    stricter about that than Arch is.
+
+                    If this tag is present, then either the libre-replacement
+                    column should match the the original-package column;
+                    or the [FIXME:package] tag should also be present and
+                    the libre-replacement column should be empty.
+
+    [FIXME:package] This package has a free replacement, or could be built
+                    in a way that is acceptable, but no one has done so yet.
+
+    [FIXME:description] Someone needs to fix the description in blacklist.txt
+
+  To make reporting issues to gnu-linux-libre easier, we should indicate
+  in the description if the package is blacklisted due to an upstream FSDG
+  issue, problem introduced by Arch (e.g. not including required license
+  text, adding optional dependency on a non-free package), or just
+  branding, dependency or non-freedom-related issues which don't need
+  reporting to other distros.

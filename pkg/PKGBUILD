@@ -1,0 +1,21 @@
+pkgname=xgui4-scripts
+pkgver=0.0.1
+pkgrel=1
+epoch=2
+pkgreplace=xgui4-dev-scripts
+pkgdesc="Collection of bash/shell scripts I made for fun"
+arch=('x86_64') 
+license=('GPLv3')
+source=("*") 
+sha256sums=('SKIP')
+
+buidl() {
+    mkdir -p /usr/local/share/xgui4-scripts/
+    cp data /usr/local/share/xgui4-scripts/   
+}
+
+package() {
+    install -Dm755 "$srcdir/src/unsafe-detector.sh" "$pkgdir/usr/bin/unsafe-detector.sh"
+    install -Dm755 "$srcdir/src/about-your-freeddom.sh" "$pkgdir/usr/bin/about-your-freedom.sh"
+    install -Dm755 "$srcdir/src/virtual-rms.sh" "$pkgdir/usr/bin/virtual-rms.sh"
+}

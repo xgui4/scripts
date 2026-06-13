@@ -1,0 +1,297 @@
+aacplusenc::::
+acestream-engine::::
+acestream-player::::
+acroread::::
+acroread-de::::
+acroread-fonts::::
+acroread-fonts-systemwide::::
+adobe-air::::
+adobe-air-sdk::::
+adom::::
+aic94xx-firmware::::
+amdapp-sdk::::
+amdapp-sdk-aparapi::::
+amdapp-sdk-docs::::
+amdapp-sdk-nocatalyst::::
+amdapp-sdk-opencv::::
+amrnb::::
+android-ndk::::
+android-platform::::
+android-platform-9::::
+android-sdk::::
+android-sdk-build-tools::::
+android-sdk-platform-tools::::
+antivir::::
+appinventor::::
+archlinux-artwork::::
+b43-firmware-classic::fsf:b43-fwcutter:[nonfree] the nonfree firmware b43-fwcutter depends on
+b43-firmware::fsf:b43-fwcutter:[nonfree] the nonfree firmware b43-fwcutter depends on
+b43-firmware-legacy::fsf:b43-fwcutter:[nonfree] the nonfree firmware b43-fwcutter depends on
+b43-firmware-lts::fsf:b43-fwcutter:[nonfree] the nonfree firmware b43-fwcutter depends on
+bin32-jre::::
+braid::::
+broadcom-wc-ck::::[nonfree] proprietary EULA, missing sources
+broadcom-wc-lts::::[nonfree] proprietary EULA, missing sources
+broadcom-wl-dkms-248::::[nonfree] proprietary EULA, missing sources
+broadcom-wl-dkms::::[nonfree] proprietary EULA, missing sources
+broadcom-wl-e531::::[nonfree] proprietary EULA, missing sources
+broadcom-wl-grsec::::[nonfree] proprietary EULA, missing sources
+broadcom-wl::::[nonfree] proprietary EULA, missing sources
+brscan3::::
+btsync::::
+burpsuite::::
+capt-src::::
+catalyst::::
+catalyst-hook::::
+catalyst-test::::
+catalyst-total::::
+chromium-browser-bin::::no source
+chromium-pepper-flash-dev::::[nonfree] proprietary Google Chrome EULA, missing sources
+chromium-pepper-flash::::[nonfree] proprietary Google Chrome EULA, missing sources
+chromium-pepper-flash-standalone::::[nonfree] proprietary Google Chrome EULA, missing sources
+cisco-vpnclient::::
+citrix-client::::
+clion-eap::::[nonfree] built from binary installer, missing license information
+cndrvcups-lb::::
+codecs64::::
+codecs::::binaries
+conky-lua-nv::::
+conky-nvidia::::
+copy-agent::::
+crashplan::::
+crazypony::parabola:740:contains nonfree characters
+crossover::::
+divx4linux::::
+doom3::::
+doukutsu::::
+draftsight::::
+dropbox-experimental::::[nonfree] proprietary EULA, built from binaries, unavailable sources, non-free artwork
+dropbox::::[nonfree] proprietary EULA, built from binaries, unavailable sources, non-free artwork
+dwarffortress-ironhand::::
+e17-backgrounds::::
+e17-icons::::
+eagle::::
+eduke32::::
+em8300-utils-git::::non free firmware
+epsxe::::
+epsxe-launcher-python::::
+epsxe-plugin-gpu-mesagl::::
+epsxe-plugin-gpu-xgl2::::
+epsxe-plugin-spu-alsa::::
+eternallands::::
+fbsplash-theme-arch-black::::
+fbsplash-theme-arch-black-extras::::
+fbsplash-theme-arch-black-spin::::
+fbsplash-theme-arch-minimal::::
+fbsplash-themes-arch-banner::::
+fcitx-sogoupinyin::::
+firefox-beta-bin::fsf:firefox:[semifree][technical][trademark-issue] Firefox recommends nonfree software and has non-privacy search engines eg: Bing, Google, Facebook, Yahoo, etc
+firefox-beta::fsf:firefox:[semifree][technical][trademark-issue] Firefox recommends nonfree software and has non-privacy search engines eg: Bing, Google, Facebook, Yahoo, etc
+flashplayer-standalone::::
+fluxgui::::
+foldingathome::::
+foo2zjs::::
+fortune-mod-archlinux::::
+fortune-mod-bofh-excuses::::
+fortune-mod-futurama::::
+fortune-mod-hitchhiker::::
+foxitreader::::
+gdm-themes::::
+genymotion::::
+gnome-shell-theme-nord::::
+gogoc::::
+google-chrome-beta::::
+google-chrome::::contains non-free bits
+google-chrome-dev::::contains non-free bits
+google-desktop::::
+google-earth::::non-free software
+google-musicmanager::::
+google-talkplugin::::non-free software
+gsview::::
+gtk-theme-hope::::
+hipchat::::
+hon::::
+hplip-plugin::::
+huludesktop::::
+ilbc::::
+insync::::
+intel-advisor-xe::::
+intel-compiler-base::::
+intel-fortran-compiler::::
+intel-inspector-xe::::
+intel-ipp::::
+intellij-idea-ue-eap::::[nonfree] proprietary trialware, built from binary installer
+intellij-idea-ultimate-edition::::
+intel-mkl::::
+intel-opencl-sdk::::
+intel-openmp::::
+intel-sourcechecker::::
+intel-vtune-amplifier-xe::::
+iozone::::
+java3d::::
+jdk6::::oracle's non-free software
+jdk7::::
+jdk::::oracle's non-free software
+jdownloader::::non-free parts
+jre6::::oracle's non-free software
+jre::::oracle's non-free software
+kawoken-icons::::
+keepass-plugin-http::::
+kega-fusion::::
+kindlegen::::
+lastpass::::
+lastpass-pocket::::
+lha::::
+lib32-nvidia-libgl-beta::::
+lib32-nvidia-utils-beta::::
+lib32-opencl-nvidia-beta::::
+libspotify::::
+linux-firmware-git::::
+linuxqq::::
+logitechmediaserver::::
+logmein-hamachi::::
+lwks::::
+machinarium::::
+makemkv::::
+masterpdfeditor::::
+mbrola::::
+mediathek::::
+mendeleydesktop::::
+minecraft::::
+minecraft-server::::
+mod_scgi::::
+mprime-bin::::
+my-little-investigations::parabola:740:contains nonfree characters
+nautilus-dropbox::::
+neroaacenc::::
+nerolinux::::
+nitrux-icon-theme::::
+numix-icon-theme-square::::[nonfree] missing source archive
+nvidia-all::::
+nvidia-beta::::
+nvidia-ck::::
+nvidia-dkms::::
+nvidia-libgl-beta::::
+nvidia-utils-beta::::
+opencl-nvidia-beta::::
+opera-developer::::[nonfree] nonfree, nondistributable, built from binary installers
+oracle-sqldeveloper::::
+osmos::::
+packettracer::::
+phoronix-test-suite:phoronix-test-suite:::[uses-nonfree] Some tests depends on nonfree software
+phpstorm::::
+picasa::::
+planeshift::::
+plex-media-server::::
+psi::::[branding] (old replacement available somewhere in abslibre history)
+psx::::
+pycharm-professional::::[nonfree] proprietary trialware, built from binary installer
+qtadb::::
+rainlendar-lite::::
+rar::::
+realplayer::::
+rubymine::::
+samsung-unified-driver::::
+savage2::::
+sdcc:2160:parabola:740:contains nonfree headers and code
+sendmail::::
+serviio::::
+slimjet::::[nonfree][uses-nonfree] proprietary EULA forbids modification and selling; built from binary installers, depends on chromium, chromium-pepper-flash
+slim-theme-burning-arch::::
+smartgit::::
+spacefm::::[semifree] has nonfree unrar support for RAR (old replacement available somewhere in abslibre history)
+spideroak::::
+splashy-theme-darch::::
+splashy-themes::::
+spotify::::
+spring-ota::::
+stardict-oald::::
+sublime-text::::
+sublime-text-dev::::
+sublime-text-nightly::::
+teamspeak2::::
+teamspeak3-server::::
+teamviewer::::
+terminix-git::::[uses-nonfree] requires the nonfree DMD compiler
+terminix::::[uses-nonfree][technical] requires the nonfree DMD compiler, built from binary installers
+timidity-eawpatches::::
+tome4::::
+true-combat::::
+tsmuxer::::
+ttf-adobe-fonts::::
+ttf-aller::::
+ttf-envy-code-r::::
+ttf-exljbris::::
+ttf-inconsolata-g::::
+ttf-kochi-substitute::::
+ttf-larabie-decor::parabola:743:fonts are totally nonfree
+ttf-larabie-standard::parabola:743:fonts are totally nonfree
+ttf-larabie-uncommon::parabola:743:fonts are totally nonfree
+ttf-mac-fonts::::
+ttf-monofur::::
+ttf-ms-fonts::::
+ttf-ms-win8::::
+ttf-ms-win8-arabic::::
+ttf-ms-win8-hebrew::::
+ttf-ms-win8-indic::::
+ttf-ms-win8-japanese::::
+ttf-ms-win8-korean::::
+ttf-ms-win8-other::::
+ttf-ms-win8-sea::::
+ttf-ms-win8-thai::::
+ttf-ms-win8-zh_cn::::
+ttf-ms-win8-zh_tw::::
+ttf-unispace::parabola:743:fonts are totally nonfree
+ttf-vista-fonts::::
+ttf-win7-fonts::::
+unigine-heaven::::
+usermin::::[branding] (old replacement available somewhere in abslibre history)
+utorrent::::
+utserver::::
+veetle::::
+viber::::
+virtualbox-ext-oracle::::
+visual-studio-code::::
+vivaldi-beta::::[nonfree] proprietary EULA, missing sources, built from binary installers, etc
+vivaldi::::[nonfree] proprietary EULA, missing sources, built from binary installers, etc
+vivaldi-snapshot::::[nonfree] proprietary EULA, missing sources, built from binary installers, etc
+vmware-server::::
+wallpaper-archpaint2::::
+webcore-fonts::::
+webmin::::[branding] (old replacement available somewhere in abslibre history)
+webstorm::::
+wordnet::::
+worldofgoo::::
+worldofgoo-demo::::
+worldwind::parabola:761:nonfree license
+wps-office::::
+wuala::::
+xflux::::
+xnviewmp::::
+xvba-video::::
+yandex-disk::::
+yaourt-git::::[semifree] points to nonfree software
+yaourt::::[semifree] points to nonfree software
+yed::::
+yong::::no license found
+zattoo::::
+zfs-linux-git-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-git::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-hardened-git-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-hardened-git::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-hardened-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-hardened::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-lts-git-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-lts-git::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-lts-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-lts::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-vfio-git-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-vfio-git::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-vfio-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-vfio::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-zen-git-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-zen-git::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-zen-headers::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility
+zfs-linux-zen::::[nonfree] ZFS+Linux binaries are non-redistributable because of CDDL/GPL license incompatibility

@@ -1,0 +1,15 @@
+*
+!.gitignore
+!aur-blacklist.txt
+!blacklist.txt
+!check.sh
+!COPYING
+!find-replacements
+!find-deprecated
+!find-deprecated.conf
+!README
+!SYNTAX
+!THANKS
+!your-freedom_emu-blacklist.txt
+!your-privacy-blacklist.txt
+!your-initfreedom-blacklist.txt

@@ -14,12 +14,12 @@ RESET_COLOR="\e[0m"
 
 # Variables
 isFreeSystem=1
-numbOfNonFreeSoftware=0
+nonFreeSoftwareCounter=0
 
 PKGLIST_PATH="data/pkglist.txt"
 
 # Locales
-WARNING_PART1_STR="${YELLOW}WARNING:${RESET_COLOR}Proprietary Package"
+WARNING_PART1_STR="${YELLOW}WARNING:${RESET_COLOR} Proprietary Package"
 WARNING_PART2_STR="is INSTALLED"
 
 function verify_arch_pkg() {
@@ -27,7 +27,7 @@ function verify_arch_pkg() {
         if $PKGMAN $PKGMAN_ARG "$package" &> /dev/null; then
             echo -e "${WARNING_PART1_STR} ${RED}$package${RESET_COLOR} ${WARNING_PART2_STR}"
             isFreeSystem=0
-            numbOfNonFreeSoftware=$((numbOfNonFreeSoftware + 1))
+            nonFreeSoftwareCounter=$((nonFreeSoftwareCounter + 1))
         fi
     done < "$PKGLIST_PATH"
 }
@@ -37,7 +37,7 @@ function check_software() {
     if [[ "$isFreeSystem" == "1" ]]; then 
         echo "Congrats! Your system contain 100% percent of free software!"
     else
-        echo "Yours system contains ${numbOfNonFreeSoftware} knowns non-free packages"
+        echo "Yours system contains ${nonFreeSoftwareCounter} knowns non-free packages"
     fi
 }
 

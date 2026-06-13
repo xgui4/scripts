@@ -9,8 +9,6 @@ akonadi-calendar-tools::parabola:2012:[uses-nonfree] depends on blacklisted akon
 akonadiconsole::parabola:2012:[uses-nonfree] depends on blacklisted calendarsupport,messagelib
 akonadi-import-wizard::parabola:2012:[uses-nonfree] depends on blacklisted 'messagelib'
 akregator::parabola:2012:[uses-nonfree] depends on blacklisted 'messagelib'
-alice-vision-cuda::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda'
-alice-vision::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda' <- 'magma-cuda' <- 'uncertainty-framework'
 alsa-firmware::::[nonfree] All its firmwares are either under a nonfree licenses or under a free license but without source code.
 amd-ucode::::[nonfree] no modification, use restrictions
 aml-libs-c1::::[nonfree] some copyrighted files
@@ -28,10 +26,8 @@ archlinux-wallpaper::::[branding] [FIXME:package][FIXME:description]
 archlinux-xdg-menu:parabola-xdg-menu:::[branding][FIXME:description]
 arch-wiki-docs:parabola-wiki-docs:parabola:1024:[branding] [FIXME:package][FIXME:description]
 arch-wiki-lite:parabola-wiki-lite:parabola:1025:[branding] [FIXME:package][FIXME:description]
-arduino-ide::parabola:1231:[uses-nonfree] depends on blacklisted 'electron'
 arianna::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
 ark:ark:::[uses-nonfree] recommends nonfree unrar
-arrayfire:arrayfire:parabola:840:[semifree] has nonfree cuda and nvidia-utils support and contains nonfree SIFT algorithm
 asar::parabola:2527:[uses-nonfree] built with blacklisted 'electron'
 asp::parabola:1755:[uses-nonfree] Downloads Arch Linux PKGBUILD repositories, so it's not FSDG compliant
 atool:atool:::[uses-nonfree] has nonfree unrar support for RAR and recommends nonfree unace optional installation
@@ -68,7 +64,6 @@ calibre:calibre3:parabola:2492:[semifree] contains nonfree unrar - frozen at v3.
 calibre-common::parabola:2492:[technical] part of 'calibre' >= v4 split package - no replacement necessary
 calibre-python3::parabola:2492:[technical] part of 'calibre' >= v4 split package - no replacement necessary
 cantor::parabola:2012:[uses-nonfree] depends on blacklisted 'qt5-webengine'
-caprine::parabola:2528:[uses-nonfree] depends on blacklisted 'electron'
 cdrtools:cdrkit:::[semifree] Apple's license binding with no clarification (apple_driver utility is nonfree)
 cgroup_event_listener:linux-libre-tools-cgroup_event_listener:::[semifree][technical] re-build from 'linux-libre'
 chromium::parabola:1167:[uses-nonfree][FIXME:package] links to proprietary plugins - unattended phone-home" queries - not entirely built from sources - see https://lists.nongnu.org/archive/html/gnu-linux-libre/2018-03/msg00098.html
@@ -83,7 +78,6 @@ cowsay:cowsay:parabola:3063:[semifree] has some dubious and objectionable cows
 cozy-desktop::parabola:2202:[uses-nonfree] depends on blacklisted 'electron'
 cpupower:linux-libre-tools-cpupower:::[semifree][technical] re-build from 'linux-libre'
 cuda::parabola:1375:[nonfree] proprietary EULA places limits on all four freedoms
-cuda-tools::parabola:1375:[nonfree] depends on blacklisted 'cuda' - same license as 'cuda'
 cudnn::parabola:1375:[nonfree][uses-nonfree] proprietary license, binary blobs without corresponding source - depends on blacklisted 'cuda'
 cuneiform:cuneiform:parabola:1054:[semifree] contains nonfree data files
 cura-binary-data::::[technical] Arch version was not built from source
@@ -91,7 +85,6 @@ cutefish-wallpapers::parabola:3109:[nonfree] Uses nonfree Unsplash License
 dark-reader::parabola:2164:[uses-nonfree] depends on blacklisted 'firefox'
 debootstrap:debootstrap:::[uses-nonfree] bootstrap a basic Debian system
 deepin-anything-arch:deepin-anything-module:parabola:2134:[technical] needs rebuild for linux-libre kernel
-deepin-community-wallpapers::parabola:2986:[nonfree] no license (also 'deepin-wallpapers' - see #2986)
 deepin-wallpapers::parabola:2986:[nonfree] non-free license (CC-BY-NC)
 deltachat-desktop::parabola:1231:[uses-nonfree] depends on blacklisted 'electron'
 discord::parabola:2489::[nonfree] No source code available - redistribution-only license
@@ -108,7 +101,6 @@ drone-runner-exec::parabola:3563:[nonfree] non-free custom license
 drone-runner-ssh::parabola:3563:[nonfree] non-free custom license
 dwarffortress::::[nonfree] dwarffortress
 ecasound:ecasound:::[uses-nonfree] recommends nonfree faac optional installation
-electron27::parabola:1231:[semifree] transitional version of blacklisted 'electron'
 electron31::parabola:1231:[semifree] transitional version of blacklisted 'electron'
 electron34::parabola:1231:[semifree] transitional version of blacklisted 'electron'
 electron35::parabola:1231:[semifree] transitional version of blacklisted 'electron'
@@ -352,10 +344,6 @@ geogebra::::[nonfree][technical][FIXME:package] Arch version is packaged from in
 ghidra::parabola:3353:[technical] Arch version is not compiled from source
 ghostwriter::parabola:1155:[uses-nonfree] depends on blacklisted 'qt5-webengine'
 gigedit::::[uses-nonfree] only useful with nonfree linuxsampler
-gitness::parabola:3563:[nonfree] alternate name for blacklisted 'drone' - may or may not be libre (see BR)
-gitness-runner-docker::parabola:3563:[nonfree] alternate name for blacklisted 'drone'
-gitness-runner-exec::parabola:3563:[nonfree] alternate name for blacklisted 'drone'
-gitness-runner-ssh::parabola:3563:[nonfree] alternate name for blacklisted 'drone'
 gloobus-preview:gloobus-preview:::[uses-nonfree] recommends nonfree unrar optional installation
 gmni:bombadillo:parabola:3360:[nonfree] code-base includes a GPL file, but is not properly licensed
 gnome-boxes:gnome-boxes:parabola:517:[uses-nonfree] contains artwork for non-FSDG compliant distros and operating systems
@@ -439,7 +427,6 @@ kde-system-meta:kde-system-meta:parabola:3597:[uses-nonfree] depends on blacklis
 kde-utilities-meta:kde-utilities-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
 kdevelop:kdevelop:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
 kdevelop-meta:kdevelop-meta:parabola:3597:[technical] split-package with several other k-*-meta packages
-keybase-gui::parabola:2204:[uses-nonfree] depends on blacklisted 'electron'
 khelpcenter::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
 kile:kile:::[uses-nonfree] recommends Adobe Reader
 kimagemapeditor::parabola:2012:[uses-nonfree] depends on blacklisted 'qt5-webengine'
@@ -493,8 +480,8 @@ linux-armv7-rc-odroidc1::fsf:linux_linux-backports-modules.2A_linux-ubuntu-modul
 linux-clearfog-headers:linux-libre-headers:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] blobbed source
 linux-clearfog:linux-libre:fsf:linux_linux-backports-modules.2A_linux-ubuntu-modules:[semifree] nonfree blobs and firmwares
 linux-docs:linux-libre-docs:::[semifree] docs comes from nonfree linux kernel
-linux-fimrware-atheros::fsf:linux-firmware:[nonfree] nonfree blobs
 linux-firmware-amdgpu::fsf:linux-firmware:[nonfree] nonfree blobs
+linux-firmware-atheros::fsf:linux-firmware:[nonfree] nonfree blobs
 linux-firmware-bnx2x:linux-libre-firmware:fsf:linux-firmware:[nonfree] nonfree blobs
 linux-firmware-broadcom::fsf:linux-firmware:[nonfree] nonfree blobs
 linux-firmware-cirrus::fsf:linux-firmware:[nonfree] nonfree blobs
@@ -579,10 +566,8 @@ mencoder:mencoder:::[uses-nonfree] depends on nonfree package faac, Parabola use
 merkuro::parabola:2012:[uses-nonfree] depends on blacklisted akonadi-calendar,kdepim-runtime,mailcommon,messagelib,mimetreeparser
 mermaid-cli::::[uses-nonfree] depends on blacklisted chromium
 mesa-demos:mesa-demos:fsf:mesademos:[semifree] The 'pointblast' and 'spriteblast' demos are nonfree
-meshroom::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda' <- 'magma-cuda' <- 'uncertainty-framework' <- 'alice-vision'
 messagelib::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
 mimetreeparser::parabola:2012:[uses-nonfree] depends on blacklisted 'qt6-webengine'
-minitube:minitube:parabola:1457:[semifree] recommends unfree projects from same author
 mkosi::::[uses-nonfree] bootstrap basic non-FSDG compliant distributions
 mplayer:mplayer:::[uses-nonfree] depends on nonfree package faac, Parabola use mplayer, without dependency of faac
 nccl::parabola:3276:[uses-nonfree] depends on blacklisted 'cuda'
@@ -590,16 +575,12 @@ neochat::parabola:3593:[uses-nonfree] depends on blacklisted 'qt6-webview'
 netbeans::parabola:837:[semifree] nonfree JDBC drivers are embedded into Netbeans
 netpbm:netpbm:parabola:3624:[semifree] some programs are licensed non-commercial, patent restricted, or unlicensed
 netperf::::[nonfree] license forbids commercial redistribution
-nextcloud-client-cloudproviders:nextcloud-client-cloudproviders:parabola:2107:[technical] part of 'netcloud-client' split package
 nextcloud-client:nextcloud-client:parabola:2107:[uses-nonfree] depends on blacklisted 'qt5-webengine'
 nikto::parabola:1053:[semifree] contains nonfree databases
 nltk-data::::[semifree][FIXME:package] contains nonfree corpora. we'll have to remove those
 nmap::parabola:2966:[nonfree] use 'masscan' instead - the FSF considers the v7.9x license to be non-free - however, the previous license was apparently non-free also - (2021) ticket open on (private) tracker of FSF licensing team
 notion::::[nonfree] restrictions on modifications in the Ion licence
 nvidia-cg-toolkit::::[nonfree] nonfree, nondistributable, built from binary installers, etc
-nvidia-dkms::parabola:825:[uses-nonfree] depends on nonfree package nvidia-utils
-nvidia-lts::::[nonfree] nonfree, nondistributable, built from binary installers, etc
-nvidia::::[nonfree] nonfree, nondistributable, built from binary installers, etc
 nvidia-open-dkms::parabola:3293:[nonfree] source include blobs
 nvidia-open::parabola:3293:[nonfree] source include blobs
 nvidia-prime::::[uses-nonfree] depends on nonfree nvidia-utils
@@ -620,9 +601,6 @@ openshot:openshot:::[uses-nonfree] recommends nonfree faac optional installation
 openttd-opensfx::parabola:693:[nonfree] license CC Sampling Plus 1.0 restricting modification
 openttd:openttd:parabola:716:[uses-nonfree] recommends nonfree openttd-opensfx optional installation
 open-vm-tools::::[uses-nonfree] only useful with vmware
-opera-ffmpeg-codecs::parabola:2344:[nonfree] depends on nonfree 'opera'
-opera::parabola:2344:[nonfree] not open source. Arch package built from Debian .deb files. Also based on Chromium.
-p7zip:p7zip:::[semifree] contains nonfree unrar
 pacman-mirrorlist:pacman-mirrorlist:::[branding] points to Arch mirrors, not Parabola mirrors
 pacman:pacman:::[technical] needs be repackaged to add [libre] repo
 parley:parley:parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
@@ -689,7 +667,6 @@ pyside6-tools:pyside6-tools:parabola:3611:[uses-nonfree] makedepends and optdepe
 pysolfc-cardsets:pysolfc-cardsets:::[semifree] some copyrighted cardsets
 python2-pip::parabola:1035:[uses-nonfree] The repository that python-pip uses allows any license, including nonfree licenses
 python2-unrardll::::[uses-nonfree] depends on nonfree libunrar
-python-cuda-docs::parabola:3239:[nonfree] License forbid modification - depends on blacklisted 'cuda'
 python-cuda::parabola:3239:[nonfree] License forbids modification - depends on blacklisted 'cuda'
 python-distributed::parabola:3326:[uses-nonfree] depends on blacklisted 'cuda' and 'cudnn' <- 'python-pytorch-cuda'
 python-opencv-cuda::parabola:735:[uses-nonfree] depends on blacklisted 'cuda'
@@ -881,7 +858,7 @@ uboot-pandaboard:uboot-omap4_panda:parabola:3095:[technical] adapted to nonfree 
 uboot-pcduino3-nano:uboot-linksprite_pcduino3_nano:parabola:3095:[technical] adapted to nonfree linux kernel
 uboot-pcduino3:uboot-linksprite_pcduino3:parabola:3095:[technical] adapted to nonfree linux kernel
 uboot-pcduino:uboot-linksprite_pcduino:parabola:3095:[technical] adapted to nonfree linux kernel
-uboot-tools:uboot-libre-tools:parabola:3095:[use-nonfree] build from uboot-libre source
+#uboot-tools:uboot-libre-tools:parabola:3095:[use-nonfree] build from uboot-libre source
 uboot-trimslice:uboot-trimslice:parabola:3095:[technical] adapted to nonfree linux kernel
 uboot-usbarmory:uboot-usbarmory:parabola:3095:[technical] adapted to nonfree linux kernel
 uboot-wandboard:uboot-wandboard:parabola:3095:[technical] adapted to nonfree linux kernel
@@ -889,7 +866,6 @@ uboot-zedboard::parabola:3095:[technical] adapted to nonfree linux kernel and Ar
 ubuntu-keyring:trisquel-keyring:::[uses-nonfree] contains non-FSDG compliant distro and operating system support
 unace::::[nonfree] license forbids making competing ACE archivers from unace
 unarj::::[nonfree] license forbids making competing ARJ archivers from unarj. arj shouldn't be mentioned as replacement as long as it isn't modified to conflicts=(unarj), etc
-uncertainty-framework::parabola:2616:[uses-nonfree] depends on blacklisted 'cuda' <- 'magma-cuda'
 unp:unp:parabola:715:[uses-nonfree] recommends nonfree unace, unrar and unarj optional installation
 unrar::fsf:unrar:[nonfree] no replacement necessary - other packages already provide the same functionality
 unzip:unzip:::[semifree] contains a source file that doesn't mention modification
@@ -916,7 +892,6 @@ vivaldi-ffmpeg-codecs::parabola:2924:[technical] only useful for blacklisted viv
 vivaldi::parabola:2924:[nonfree] UI code is proprietary and obfuscated
 vulscan::parabola:2966:[uses-nonfree] depends on blacklisted 'nmap'
 winetricks:winetricks-libre:parabola:366:[uses-nonfree] recommends and installs nonfree software
-wire-desktop::parabola:2201:[uses-nonfree] depends on blacklisted 'electron'
 wiznote::parabola:1167:[uses-nonfree] depends on blacklisted 'qt5-webengine'
 x86_energy_perf_policy:linux-libre-tools-x86_energy_perf_policy:::[semifree][technical] re-build from 'linux-libre'
 xarchiver-gtk2:xarchiver-gtk2:::[uses-nonfree] recommends nonfree unrar

@@ -80,3 +80,4 @@ The *blacklist.txt files consist of lines in the following format:
   text, adding optional dependency on a non-free package), or just
   branding, dependency or non-freedom-related issues which don't need
   reporting to other distros.
+  

@@ -4,6 +4,9 @@
 PKGMAN=pacman
 PKGMAN_ARG=-Qi
 
+VERSION="0.0.1"
+LICENSE="GPLV3"
+
 # Colors Code
 YELLOW="\e[33m"
 RED="\e[31m"
@@ -12,6 +15,8 @@ RESET_COLOR="\e[0m"
 # Variables
 isFreeSystem=1
 numbOfNonFreeSoftware=0
+
+PKGLIST_PATH="data/pkglist.txt"
 
 # Locales
 WARNING_PART1_STR="${YELLOW}WARNING:${RESET_COLOR}Proprietary Package"
@@ -22,9 +27,9 @@ function verify_arch_pkg() {
         if $PKGMAN $PKGMAN_ARG "$package" &> /dev/null; then
             echo -e "${WARNING_PART1_STR} ${RED}$package${RESET_COLOR} ${WARNING_PART2_STR}"
             isFreeSystem=0
-            numbOfNonFreeSoftware=$((${numbOfNonFreeSoftware} + 1))
+            numbOfNonFreeSoftware=$((numbOfNonFreeSoftware + 1))
         fi
-    done < data/pkglist.txt
+    done < "$PKGLIST_PATH"
 }
 
 function check_software() {
@@ -37,12 +42,19 @@ function check_software() {
 }
 
 function main() {
-    if [[ "$1" == "Arch" ]]; then 
-        check_software 
+    if [[ "$1" == "--about" ]]; then
+        echo "Check well know proprietary packages on your system. Currently support Arch Linux only"
+        exit
     fi
-    if [[ "$1" == "--help" ]]; then
-        echo "Check well know proprietary packages on your system"
+    if [[ "$1" == "--license" ]]; then
+        echo "Xgui4 virtual-rms.sh is licensed under $LICENSE"
+        exit
     fi
+    if [[ "$1" == "--version" ]]; then
+        echo "Xgui4 virtual-rms.sh version $VERSION"
+        exit
+    fi
+    check_software    
 }
 
-main
+main "$1"
